@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = () => <div>Test</div>;
+import Button from "@eldo/ui/Button";
+
+const App = () => <Button text="test">Test</Button>;
 
 ReactDOM.render(<App />, document.getElementById("root"));
