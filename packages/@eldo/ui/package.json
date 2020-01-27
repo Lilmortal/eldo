@@ -1,15 +1,15 @@
 {
   "name": "@eldo/ui",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "start-storybook -p 9000",
     "server": "verdaccio",
-    "login": "npm adduser --registry http://localhost:4873",
-    "publish": "npm publish --registry http://localhost:4873"
+    "login": "owner add --registry http://localhost:4873",
+    "publish": "publish --registry http://localhost:4873"
   },
-  "dependencies": {
+  "devDependencies": {
     "@storybook/addon-actions": "^5.3.9",
     "@storybook/react": "^5.3.9",
     "@testing-library/jest-dom": "^5.0.2",
@@ -35,5 +35,9 @@
     "verdaccio": "^4.4.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }

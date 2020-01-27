@@ -1,6 +1,6 @@
 {
   "name": "eldo",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html -p 3000",
@@ -8,7 +8,8 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "autoprefixer": "^~/9.7.4",
+    "@eldo/ui": "^1.0.6",
+    "autoprefixer": "^9.7.4",
     "parcel": "^1.12.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
