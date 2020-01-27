@@ -32,6 +32,8 @@ module.exports = {
       }
     );
 
+    // Needed so you don't have to import from '.tsx'
+    config.resolve.extensions.push(".ts", ".tsx");
     return config;
   },
 };

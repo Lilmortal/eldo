@@ -5,8 +5,12 @@
   "author": "Jack Tan <jacktan165@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "lerna run start --scope eldo --stream",
+    "start:ui": "lerna run start --scope @eldo/ui --stream"
+  },
   "workspaces": [
-    "packages/*"
+    "packages/@eldo/*"
   ],
   "devDependencies": {
     "lerna": "^3.20.2"
