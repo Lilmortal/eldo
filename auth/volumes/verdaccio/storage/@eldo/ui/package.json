@@ -1,0 +1,70 @@
+{
+	"name": "@eldo/ui",
+	"versions": {
+		"1.0.0": {
+			"name": "@eldo/ui",
+			"version": "1.0.0",
+			"main": "index.js",
+			"license": "MIT",
+			"scripts": {
+				"start": "start-storybook -p 9000"
+			},
+			"devDependencies": {
+				"@storybook/addon-actions": "^5.3.9",
+				"@storybook/react": "^5.3.9",
+				"@testing-library/jest-dom": "^5.0.2",
+				"@testing-library/react": "^9.4.0",
+				"@types/jest": "^24.9.1",
+				"@types/react": "^16.9.19",
+				"babel-loader": "^8.0.6",
+				"css-loader": "^3.4.2",
+				"eslint": "^6.8.0",
+				"file-loader": "^5.0.2",
+				"husky": "^4.2.1",
+				"jest": "^25.1.0",
+				"postcss": "^7.0.26",
+				"postcss-cli": "^7.1.0",
+				"postcss-nested": "^4.2.1",
+				"react-storybook": "^1.0.0",
+				"standard-version": "^7.1.0",
+				"style-loader": "^1.1.3",
+				"stylelint": "^13.0.0",
+				"ts-loader": "^6.2.1",
+				"typescript": "^3.7.5",
+				"url-loader": "^3.0.0",
+				"webpack": "^4.41.5",
+				"webpack-cli": "^3.3.10"
+			},
+			"dependencies": {
+				"react": "^16.12.0",
+				"react-dom": "^16.12.0"
+			},
+			"_id": "@eldo/ui@1.0.0",
+			"dist": {
+				"shasum": "96a331894ddbd5d8df6851cf09f9956504ab62e2",
+				"tarball": "http://registry.yarnpkg.com/@eldo/ui/-/@eldo/ui-1.0.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-01-28T11:12:19.678Z",
+		"created": "2020-01-28T11:12:19.678Z",
+		"1.0.0": "2020-01-28T11:12:19.678Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"ui-1.0.0.tgz": {
+			"shasum": "96a331894ddbd5d8df6851cf09f9956504ab62e2",
+			"version": "1.0.0"
+		}
+	},
+	"_rev": "3-7f35a641e55ba796",
+	"_id": "@eldo/ui",
+	"readme": ""
+}

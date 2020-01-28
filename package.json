@@ -7,7 +7,8 @@
   "private": true,
   "scripts": {
     "start": "lerna run start --scope eldo --stream",
-    "start:ui": "lerna run start --scope @eldo/ui --stream"
+    "start:ui": "lerna run start --scope @eldo/ui --stream",
+    "bootstrap": "lerna bootstrap"
   },
   "workspaces": [
     "packages/**/*"
