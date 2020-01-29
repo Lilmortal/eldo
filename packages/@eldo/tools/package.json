@@ -1,6 +1,6 @@
 {
   "name": "@eldo/tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.18.0",
