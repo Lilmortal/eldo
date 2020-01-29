@@ -5,9 +5,11 @@
   "scripts": {
     "start": "parcel src/index.html -p 3000",
     "sb": "start-storybook -p 9000",
-    "release": "standard-version"
+    "release": "standard-version",
+    "lint": "eslint --debug src/index.tsx"
   },
   "dependencies": {
+    "@eldo/tools": "^1.0.1",
     "@eldo/ui": "^1.0.8",
     "autoprefixer": "^9.7.4",
     "parcel": "^1.12.4",
