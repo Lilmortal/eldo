@@ -8,7 +8,8 @@
   "scripts": {
     "start": "lerna run start --scope eldo --stream",
     "start:ui": "lerna run start --scope @eldo/ui --stream",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint"
   },
   "workspaces": [
     "packages/**/*"

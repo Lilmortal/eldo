@@ -9,8 +9,8 @@ interface ButtonProps {
   style?: string;
 }
 
-const Button = ({ text, children, className }: ButtonProps) => (
-  <button value={text} className="Button">
+const Button = ({ text, children }: ButtonProps) => (
+  <button value={text} className="Button" type="button">
     {children}
   </button>
 );

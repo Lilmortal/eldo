@@ -1,2 +1,2 @@
 extends:
-  - "@eldo/tools"
+  - "@eldo/eldo-tools"
