@@ -10,7 +10,6 @@
     "start:ui": "lerna run start --scope @eldo/ui --stream",
     "bootstrap": "lerna bootstrap",
     "pub": "lerna publish --no-commit-hooks",
-    "lint": "lerna run lint",
     "precommit": "lerna run precommit --stream"
   },
   "workspaces": [
