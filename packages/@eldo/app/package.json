@@ -5,9 +5,17 @@
   "scripts": {
     "start": "parcel src/index.html -p 3000",
     "sb": "start-storybook -p 9000",
-    "release": "standard-version",
-    "lint": "eslint ./src/index.tsx",
-    "lint:style": "stylelint ./src/index.css"
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix-dry-run"
+    ],
+    "*.{css}": [
+      "prettier --write",
+      "stylelint"
+    ]
   },
   "dependencies": {
     "@eldo/tools": "^1.0.2",

@@ -4,7 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "start-storybook -p 9000"
+    "start": "start-storybook -p 9000",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write",
+      "eslint --fix-dry-run"
+    ],
+    "*.{css}": [
+      "stylelint"
+    ]
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.9",
