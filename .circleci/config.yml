@@ -42,6 +42,7 @@ workflows:
   version: 2
   verify:
     jobs:
+      - build
       - lint:
           requires:
             - build
