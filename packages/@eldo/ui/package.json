@@ -8,11 +8,12 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,css}": [
+    "*.{js,jsx,ts,tsx}": [
       "prettier --write",
       "eslint --fix-dry-run"
     ],
     "*.{css}": [
+      "prettier --write",
       "stylelint"
     ]
   },
