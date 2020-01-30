@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/ui@1.0.10...@eldo/ui@1.3.0) (2020-01-30)
+
+
+### Features
+
+* added husky support for commitlint and see if bump version ([3de0542](https://github.com/Lilmortal/eldo/commit/3de05428ef54bee98c89f650abeacf1d21284a9a))
+
+
+
+
+
 # [1.2.0](https://github.com/Lilmortal/eldo/compare/@eldo/ui@1.0.10...@eldo/ui@1.2.0) (2020-01-30)
 
 
