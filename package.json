@@ -9,6 +9,7 @@
     "start": "lerna run start --scope eldo --stream",
     "start:ui": "lerna run start --scope @eldo/ui --stream",
     "bootstrap": "lerna bootstrap",
+    "pub": "lerna publish --conventional-commits",
     "lint": "lerna run lint"
   },
   "workspaces": [
