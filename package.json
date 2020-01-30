@@ -11,7 +11,7 @@
     "lint": "lerna run lint --stream",
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
-    "pub": "lerna publish --no-commit-hooks",
+    "deploy": "lerna publish --no-commit-hooks",
     "precommit": "lerna run precommit --stream"
   },
   "workspaces": [
