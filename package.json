@@ -22,9 +22,9 @@
     }
   },
   "lint-staged": {
-    "./src/*.{js,jsx,ts,tsx}": [
+    "./packages/**/*.{js,jsx,ts,tsx}": [
       "npx prettier --write",
-      "eslint packages/**/*.ts packages/**/*.tsx --fix-dry-run"
+      "npx eslint --fix-dry-run"
     ]
   },
   "commitlint": {
