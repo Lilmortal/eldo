@@ -47,6 +47,8 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
+      - run: chmod 777 npm-login.sh
+      - run: ./npm-login.sh
       - run: yarn deploy
 
 workflows:
