@@ -1,5 +1,11 @@
 {
   "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "registry": "http://134.209.96.47:4873",
+      "conventionalCommits": true
+    }
+  }
 }

@@ -9,12 +9,21 @@
     "start": "lerna run start --scope eldo --stream",
     "start:ui": "lerna run start --scope @eldo/ui --stream",
     "bootstrap": "lerna bootstrap",
-    "lint": "lerna run lint"
+    "lint": "lerna run lint",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "workspaces": [
     "packages/**/*"
   ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.1",
     "lerna": "^3.20.2"
   }
 }
