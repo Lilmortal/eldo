@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel src/index.html -p 3000",
     "sb": "start-storybook -p 9000",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged --allow-empty"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
