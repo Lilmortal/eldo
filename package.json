@@ -12,7 +12,8 @@
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
     "deploy": "lerna publish --no-commit-hooks",
-    "precommit": "lerna run precommit --stream"
+    "precommit": "lerna run precommit --stream",
+    "login:npm": "npm-cli-login"
   },
   "workspaces": [
     "packages/**/*"
@@ -34,5 +35,8 @@
     "husky": "^4.2.1",
     "lerna": "^3.20.2",
     "lint-staged": "^10.0.4"
+  },
+  "dependencies": {
+    "npm-cli-login": "^0.1.1"
   }
 }
