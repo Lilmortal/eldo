@@ -6,7 +6,8 @@
     "publish": {
       "registry": "http://134.209.96.47:4873",
       "conventionalCommits": true,
-      "yes": true
+      "yes": true,
+      "message": "chore: [ci skip] publish"
     }
   }
 }
