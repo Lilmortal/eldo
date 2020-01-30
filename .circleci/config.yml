@@ -48,6 +48,8 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
       - run: yarn login:npm
+      - run: git config --global user.email "jacktan165@gmail.com"
+      - run: git config --global user.name "Jack Tan"
       - run: yarn deploy
 
 workflows:
