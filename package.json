@@ -11,7 +11,7 @@
     "lint": "lerna run lint --stream",
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
-    "deploy": "lerna publish --no-commit-hooks",
+    "deploy": "lerna publish --no-commit-hooks --message=[ci skip] update version",
     "precommit": "lerna run precommit --stream",
     "login:npm": "npm-cli-login"
   },
