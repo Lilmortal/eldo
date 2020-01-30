@@ -9,3 +9,5 @@ Look up
 ```
 
 this is to bypass CI linting commit message
+
+"conventionalCommits": true, aumatically update version

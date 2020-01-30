@@ -4,7 +4,9 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "registry": "http://134.209.96.47:4873"
+      "registry": "http://134.209.96.47:4873",
+      "conventionalCommits": true,
+      "yes": true
     }
   }
 }
