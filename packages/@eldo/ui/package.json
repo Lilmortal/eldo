@@ -8,16 +8,17 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "**/*.{js,jsx,ts,tsx}": [
       "prettier --write",
       "eslint --fix-dry-run"
     ],
-    "*.{css}": [
+    "**/*.css": [
       "prettier --write",
-      "stylelint"
+      "stylelint --fix"
     ]
   },
   "devDependencies": {
+    "@eldo/tools": "^1.0.2",
     "@storybook/addon-actions": "^5.3.9",
     "@storybook/react": "^5.3.9",
     "@testing-library/jest-dom": "^5.0.2",
