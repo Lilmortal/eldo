@@ -49,6 +49,7 @@ jobs:
             - v1-dependencies-
       - run: chmod 777 npm-login.sh
       - run: ./npm-login.sh
+      - run: git update-index --assume-unchanged .npmrc
       - run: yarn deploy
 
 workflows:
