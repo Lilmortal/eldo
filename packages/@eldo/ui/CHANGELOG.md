@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/Lilmortal/eldo/compare/@eldo/ui@1.3.0...@eldo/ui@1.4.0) (2020-01-30)
+
+
+### Features
+
+* test if conventional commit still works ([2d195db](https://github.com/Lilmortal/eldo/commit/2d195db1cabac9635e3634fd85d605fdd3bdd2e9))
+
+
+
+
+
 # [1.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/ui@1.0.10...@eldo/ui@1.3.0) (2020-01-30)
 
 
