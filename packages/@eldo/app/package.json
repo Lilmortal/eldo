@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html -p 3000",
+    "build": "parcel build src/index.html",
     "sb": "start-storybook -p 9000",
     "precommit": "lint-staged --allow-empty"
   },

@@ -66,6 +66,7 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
+      - run: yarn build
       - aws-s3/sync:
           arguments: |
             --acl public-read \
@@ -73,7 +74,7 @@ jobs:
           aws-access-key-id: AWS_ACCESS_KEY_ID
           aws-region: AWS_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-          from: dist/
+          from: packages/@eldo/app/dist
           overwrite: true
           to: "s3://eldo-ui"
 workflows:

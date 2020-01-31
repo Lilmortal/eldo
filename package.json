@@ -8,6 +8,7 @@
   "scripts": {
     "start": "lerna run start --scope eldo --stream",
     "start:ui": "lerna run start --scope @eldo/ui --stream",
+    "build": "lerna run build --stream",
     "lint": "lerna run lint --stream",
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
