@@ -3,50 +3,9 @@
   "version": "1.4.8",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "start": "start-storybook -p 9000",
-    "precommit": "lint-staged --allow-empty"
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --fix-dry-run"
-    ],
-    "**/*.css": [
-      "prettier --write",
-      "stylelint --fix"
-    ]
-  },
-  "devDependencies": {
-    "@eldo/tools": "^1.0.2",
-    "@storybook/addon-actions": "^5.3.9",
+  "peerDependencies": {
     "@storybook/react": "^5.3.9",
-    "@testing-library/jest-dom": "^5.0.2",
-    "@testing-library/react": "^9.4.0",
-    "@types/jest": "^24.9.1",
-    "@types/react": "^16.9.19",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.4.2",
-    "eslint": "^6.8.0",
-    "file-loader": "^5.0.2",
-    "husky": "^4.2.1",
-    "jest": "^25.1.0",
-    "postcss": "^7.0.26",
-    "postcss-cli": "^7.1.0",
-    "postcss-nested": "^4.2.1",
-    "react-storybook": "^1.0.0",
-    "standard-version": "^7.1.0",
-    "style-loader": "^1.1.3",
-    "stylelint": "^13.0.0",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.5",
-    "url-loader": "^3.0.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
-  },
-  "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
-  },
-  "gitHead": "091ddea72eb011c9f1730a543925c1f645d9838a"
+  }
 }

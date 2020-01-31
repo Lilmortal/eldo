@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import "./Button.css";
+import './Button.css';
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -9,7 +9,10 @@ interface ButtonProps {
   style?: string;
 }
 
-const Button = ({ text, children }: ButtonProps) => (
+const Button: React.FunctionComponent<ButtonProps> = ({
+  text,
+  children,
+}: ButtonProps) => (
   <button value={text} className="Button" type="button">
     {children}
   </button>

@@ -1,3 +1,0 @@
-{
-    extends: ["@eldo/eslint-config-eldo-tools/stylelint.config.js"]
-}
