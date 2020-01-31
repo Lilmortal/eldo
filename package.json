@@ -14,7 +14,7 @@
     "lint:ts": "eslint 'packages/**/*.ts{,x}'",
     "lint": "run-p -c 'lint:* --fix'",
     "test": "jest --watch",
-    "test:ci": "lerna run test:ci --stream",
+    "test:ci": "jest",
     "release": "lerna publish --no-commit-hooks",
     "precommit": "lerna run precommit --stream",
     "login:npm": "npm-cli-login"
