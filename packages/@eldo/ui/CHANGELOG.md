@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.4.1](https://github.com/Lilmortal/eldo/compare/@eldo/ui@1.4.0...@eldo/ui@1.4.1) (2020-01-30)
+
+**Note:** Version bump only for package @eldo/ui
+
+
+
+
+
 # [1.4.0](https://github.com/Lilmortal/eldo/compare/@eldo/ui@1.4.0...@eldo/ui@1.4.0) (2020-01-30)
 
 
@@ -18,6 +31,3 @@
 
 
 ## 1.0.7 (2020-01-27)
-
-
-
