@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 orbs:
   aws-s3: circleci/aws-s3@1.0.15
 jobs:
@@ -58,7 +58,7 @@ jobs:
       - run: yarn deploy
   publish-aws:
     docker:
-      - image: cimg/python:3.6
+      - image: circleci/node:10
     steps:
       - checkout
       - restore_cache:
@@ -67,15 +67,15 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
       - aws-s3/sync:
-          arguments: |
-            --acl public-read \
-            --cache-control "max-age=86400"
-          aws-access-key-id: ${AWS_ACCESS_KEY_ID}
-          aws-region: ${AWS_REGION}
-          aws-secret-access-key: ${AWS_SECRET_ACCESS_KEY}
-          from: dist/
-          overwrite: true
-          to: "s3://eldo-ui"
+        arguments: |
+          --acl public-read \
+          --cache-control "max-age=86400"
+        aws-access-key-id: ${AWS_ACCESS_KEY_ID}
+        aws-region: ${AWS_REGION}
+        aws-secret-access-key: ${AWS_SECRET_ACCESS_KEY}
+        from: dist/
+        overwrite: true
+        to: "s3://eldo-ui"
 workflows:
   version: 2
   verify:
