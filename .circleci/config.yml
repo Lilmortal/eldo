@@ -57,6 +57,8 @@ jobs:
       - run: git config --global user.name "Jack Tan"
       - run: yarn deploy
   publish-aws:
+    docker:
+      - image: circleci/node:10
     steps:
       - checkout
       - restore_cache:
