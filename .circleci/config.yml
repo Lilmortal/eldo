@@ -51,11 +51,11 @@ jobs:
             - v1-dependencies-
       - add_ssh_keys:
           fingerprints:
-            - "e7:f1:01:8d:dd:35:a4:f0:3f:31:95:99:29:39:8e:8d"
+            - 'e7:f1:01:8d:dd:35:a4:f0:3f:31:95:99:29:39:8e:8d'
       - run: yarn login:npm
       - run: git config --global user.email "jacktan165@gmail.com"
       - run: git config --global user.name "Jack Tan"
-      - run: yarn deploy
+      - run: yarn release
   publish-aws:
     docker:
       - image: circleci/node:10
@@ -76,7 +76,7 @@ jobs:
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: packages/@eldo/app/dist
           overwrite: true
-          to: "s3://eldo-ui"
+          to: 's3://eldo-ui'
 workflows:
   version: 2
   verify:
