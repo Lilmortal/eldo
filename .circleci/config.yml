@@ -1,4 +1,6 @@
 version: 2
+orbs:
+  aws-s3: circleci/aws-s3@1.0.15
 jobs:
   build:
     docker:
@@ -37,7 +39,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
       - run: yarn test
-  publish:
+  publish-verdaccio:
     docker:
       - image: circleci/node:10
     steps:
@@ -54,7 +56,17 @@ jobs:
       - run: git config --global user.email "jacktan165@gmail.com"
       - run: git config --global user.name "Jack Tan"
       - run: yarn deploy
-
+    publish-aws:
+      - aws-s3/sync:
+        arguments: |
+          --acl public-read \
+          --cache-control "max-age=86400"
+        aws-access-key-id: ${AWS_ACCESS_KEY_ID}
+        aws-region: ${AWS_REGION}
+        aws-secret-access-key: ${AWS_SECRET_ACCESS_KEY}
+        from: bucket
+        overwrite: true
+        to: "s3://eldo-ui"
 workflows:
   version: 2
   verify:
@@ -66,7 +78,10 @@ workflows:
       - test:
           requires:
             - build
-      - publish:
+      - publish-verdaccio:
           requires:
             - lint
             - test
+      - publish-aws:
+          requires:
+            - publish-verdaccio
