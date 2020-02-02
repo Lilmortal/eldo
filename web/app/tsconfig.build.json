@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "moduleResolution": "node"
+  },
+  "exclude": ["./dist"],
+  "include": ["."]
+}

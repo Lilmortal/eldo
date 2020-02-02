@@ -1,11 +1,17 @@
 {
   "name": "@eldo/ui",
   "version": "1.4.9",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
+  "scripts": {
+    "compile": "tsc -b ./tsconfig.build.json"
+  },
   "peerDependencies": {
     "@storybook/react": "^5.3.9",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
   }
 }

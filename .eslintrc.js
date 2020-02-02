@@ -39,5 +39,10 @@ module.exports = {
         'import/no-extraneous-dependencies': ['error', { packageDir: './' }],
       },
     },
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      extends: ['@typescript-eslint/recommended'],
+    },
   ],
 };

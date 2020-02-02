@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "composite": true,
     "noEmit": true,
     "strict": true,
     "jsx": "react",
@@ -8,17 +9,15 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "removeComments": true,
-    "rootDir": ".",
-    "baseUrl": ".",
+    "baseUrl": "./packages",
     "paths": {
-      "@eldo/*": ["packages/*/src"],
-      "*": ["node_modules", "packages"]
+      "@eldo/*": ["./@eldo/*"]
     }
   },
   "awesomeTypescriptLoaderOptions": {
     "useBabel": true,
     "babelCore": "@babel/core"
   },
-  "include": ["packages", "jest-dom/extend-expect"],
+  "include": ["packages", "jest-dom/extend-expect", "web/app"],
   "exclude": ["node_modules", "dist"]
 }

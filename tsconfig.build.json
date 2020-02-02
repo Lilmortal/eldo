@@ -4,10 +4,10 @@
     "noEmit": false,
     "emitDeclarationOnly": true,
     "declaration": true,
+    "baseUrl": "./node_modules",
     "paths": {
-      "@eldo/*": ["./node_modules/@eldo/*/src"]
+      "@eldo/*": ["./@eldo/*"]
     }
   },
-  "exclude": ["**/*.story.*", "**/*.test.*", "dist"],
-  "include": []
+  "exclude": ["**/*.story.*", "**/*.test.*", "dist"]
 }

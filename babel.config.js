@@ -4,7 +4,9 @@ module.exports = (api) => {
   return {
     presets: [
       [
-        '@babel/env',
+        // This preset allows us to use the latest Javascript syntax which will be transpiled
+        // on the older browsers.
+        '@babel/preset-env',
         {
           useBuiltIns: 'usage',
           corejs: 3,

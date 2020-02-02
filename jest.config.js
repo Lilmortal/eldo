@@ -10,15 +10,12 @@ module.exports = {
       statements: 80,
     },
   },
-  globals: {
-    'ts-jest': {
-      extends: './babel.config.js',
-    },
-  },
   moduleFileExtensions: ['ts', 'tsx', 'js'],
   modulePathIgnorePatterns: ['dist'],
+  // Because Jest only knows how to read Javascript, we need to mock non Javascript files
+  // to a Javascript file.
   moduleNameMapper: {
-    '@eldo/(.+)$': '<rootDir>packages/$1/src',
+    '@eldo/(.+)$': '<rootDir>packages/$1',
     '\\.(css|scss)$': '<rootDir>/__mocks__/styleMock.js',
   },
   notify: true,
@@ -28,5 +25,5 @@ module.exports = {
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  setupFilesAfterEnv: ['<rootDir>jest/setupTests.ts'],
+  setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
 };
