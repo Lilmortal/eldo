@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 
 import Button from '@eldo/button';
 
-console.log(Button, 'test');
-const App = () => <Button text="test">Test</Button>;
+import './index.css'
+
+const App = () => <Button text="test" ><div className="test">Wee</div>Test</Button>;
 
 // const App = (): React.SFC<any> => <div>test</div>;
 

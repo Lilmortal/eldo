@@ -3,10 +3,6 @@
   "compilerOptions": {
     "noEmit": false,
     "emitDeclarationOnly": false,
-    "declaration": true,
-    "baseUrl": "./node_modules",
-    "paths": {
-      "@eldo/*": ["./@eldo/*"]
-    }
+    "declaration": true
   }
 }
