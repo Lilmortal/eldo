@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.11 (2020-02-02)
+
+
+### Bug Fixes
+
+* rename to @eldo/button ([9023df7](https://github.com/Lilmortal/eldo/commit/9023df79cd5ae1f2aa4ce5f4728fcc19e4363189))
+
+
+
+
+
 ## [1.4.10](https://github.com/Lilmortal/eldo/compare/@eldo/ui@1.4.9...@eldo/ui@1.4.10) (2020-02-02)
 
 **Note:** Version bump only for package @eldo/ui
