@@ -1,7 +1,7 @@
 {
   "name": "@eldo/button",
   "version": "1.4.11",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "compile": "tsc -b ./tsconfig.build.json"

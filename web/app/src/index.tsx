@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Button from '@eldo/ui/Button';
+import Button from '@eldo/button';
 
 console.log(Button, 'test');
 const App = () => <Button text="test">Test</Button>;

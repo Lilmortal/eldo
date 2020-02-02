@@ -2,12 +2,11 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "declaration": true,
     "baseUrl": "./node_modules",
     "paths": {
       "@eldo/*": ["./@eldo/*"]
     }
-  },
-  "exclude": ["**/*.story.*", "**/*.test.*", "dist"]
+  }
 }
