@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.5.0...@eldo/button@1.6.0) (2020-02-02)
+
+
+### Features
+
+* rename lint to eslint-config-lint ([4f84f87](https://github.com/Lilmortal/eldo/commit/4f84f87570510eac626c26b3aa2ff9ab1e98b81a))
+
+
+
+
+
 # [1.5.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.4.13...@eldo/button@1.5.0) (2020-02-02)
 
 
