@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.12](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.4.11...@eldo/button@1.4.12) (2020-02-02)
+
+
+### Bug Fixes
+
+* fix tsconfig in @eldo/Button ([745acdc](https://github.com/Lilmortal/eldo/commit/745acdc8fc3ce244570c4e94d6c441d209cfbe03))
+
+
+
+
+
 ## 1.4.11 (2020-02-02)
 
 

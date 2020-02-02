@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.27](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.0.26...@eldo/app@1.0.27) (2020-02-02)
+
+
+### Bug Fixes
+
+* fix tsconfig in @eldo/Button ([745acdc](https://github.com/Lilmortal/eldo/commit/745acdc8fc3ce244570c4e94d6c441d209cfbe03))
+
+
+
+
+
 ## [1.0.26](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.0.25...@eldo/app@1.0.26) (2020-02-02)
 
 **Note:** Version bump only for package @eldo/app
