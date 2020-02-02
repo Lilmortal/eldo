@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.0.28...@eldo/app@1.1.0) (2020-02-02)
+
+
+### Features
+
+* added lint shared packages ([677ccbf](https://github.com/Lilmortal/eldo/commit/677ccbf76ee949096b4b675161436e9e7ded105c))
+
+
+
+
+
 ## [1.0.28](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.0.27...@eldo/app@1.0.28) (2020-02-02)
 
 **Note:** Version bump only for package @eldo/app

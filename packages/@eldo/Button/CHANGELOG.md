@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.4.13...@eldo/button@1.5.0) (2020-02-02)
+
+
+### Features
+
+* added lint shared packages ([677ccbf](https://github.com/Lilmortal/eldo/commit/677ccbf76ee949096b4b675161436e9e7ded105c))
+
+
+
+
+
 ## [1.4.13](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.4.12...@eldo/button@1.4.13) (2020-02-02)
 
 
