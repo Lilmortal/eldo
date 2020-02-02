@@ -1,5 +1,5 @@
 {
-  "extends": "@eldo/lint",
+  "extends": "@eldo/eslint-config-lint",
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": ".",
