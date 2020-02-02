@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "compile": "tsc --project ./tsconfig.build.json && cpx '*.css' 'dist'"
+    "compile": "tsc --project ./tsconfig.json && cpx '*.css' 'dist'"
   },
   "peerDependencies": {
     "@storybook/react": "^5.3.9",

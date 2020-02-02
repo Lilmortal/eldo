@@ -66,6 +66,7 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
+      - run: yarn compile
       - run: yarn build
       - aws-s3/sync:
           arguments: |

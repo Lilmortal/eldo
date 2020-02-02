@@ -12,9 +12,6 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "devDependencies": {
-    "@eldo/tsconfig": "^1.3.0"
-  },
   "dependencies": {
     "@eldo/button": "^1.7.0"
   }
