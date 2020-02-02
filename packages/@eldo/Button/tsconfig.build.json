@@ -2,7 +2,10 @@
   "extends": "../../../tsconfig.build.json",
   "compilerOptions": {
     "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": "./",
     "declarationDir": "./dist"
   },
-  "exclude": ["*.stories*", "*.test*"]
+  "include": ["."],
+  "exclude": ["*.stories*", "*.test*", "dist"]
 }
