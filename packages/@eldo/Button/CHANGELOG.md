@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.7.0...@eldo/button@1.8.0) (2020-02-02)
+
+
+### Features
+
+* fix lint ([28546ce](https://github.com/Lilmortal/eldo/commit/28546ce56b87d0524912891f18f02dfa3fa3990b))
+
+
+
+
+
 # [1.7.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.6.0...@eldo/button@1.7.0) (2020-02-02)
 
 
