@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.8.0...@eldo/button@1.9.0) (2020-02-02)
+
+
+### Features
+
+* rename tsconfig.build to tsconfig and run yarn compile for aws ([1679f6a](https://github.com/Lilmortal/eldo/commit/1679f6aa743ef8491d19bfd6ec7cce59e3d320d4))
+
+
+
+
+
 # [1.8.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.7.0...@eldo/button@1.8.0) (2020-02-02)
 
 
