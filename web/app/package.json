@@ -1,6 +1,6 @@
 {
   "name": "@eldo/app",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "main": "./webpack.dev.js",
   "license": "MIT",
   "scripts": {
@@ -13,6 +13,6 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@eldo/button": "^1.4.12"
+    "@eldo/button": "^1.4.13"
   }
 }

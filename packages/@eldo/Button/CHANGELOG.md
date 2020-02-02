@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.13](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.4.12...@eldo/button@1.4.13) (2020-02-02)
+
+
+### Bug Fixes
+
+* copy css to dist ([9f89f7e](https://github.com/Lilmortal/eldo/commit/9f89f7ea8ea683f4fd9f20b184e2ce0dafe7c2f5))
+
+
+
+
+
 ## [1.4.12](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.4.11...@eldo/button@1.4.12) (2020-02-02)
 
 
