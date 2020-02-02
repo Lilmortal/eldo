@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.6.0...@eldo/button@1.7.0) (2020-02-02)
+
+
+### Features
+
+* rename lint to tsconfig ([241cacd](https://github.com/Lilmortal/eldo/commit/241cacd9cfc745dfd954b0f7daad2fa01f69470f))
+
+
+
+
+
 # [1.6.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.5.0...@eldo/button@1.6.0) (2020-02-02)
 
 
