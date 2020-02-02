@@ -1,11 +1,11 @@
 {
-  "extends": "../../tsconfig.build.json",
+  "extends": "@eldo/tsconfig",
   "compilerOptions": {
-    "composite": true,
-    "declaration": true,
-    "declarationDir": "./dist",
-    "moduleResolution": "node"
+    "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": "./",
+    "declarationDir": "./dist"
   },
-  "exclude": ["./dist"],
-  "include": ["."]
+  "include": ["."],
+  "exclude": ["*.stories*", "*.test*", "dist"]
 }

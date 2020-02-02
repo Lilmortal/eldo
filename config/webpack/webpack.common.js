@@ -1,4 +1,3 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
@@ -6,7 +5,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 // TODO: Read up more about PWA, e.g. using WorkboxWebpackPlugin
 
 module.exports = ({ dir, title }) => {
-  console.log(title);
   return {
     entry: {
       app: [

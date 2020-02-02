@@ -42,7 +42,17 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
-      extends: ['@typescript-eslint/recommended'],
+      extends: ['plugin:@typescript-eslint/recommended'],
+      rules: {
+        '@typescript-eslint/no-unused-vars': 'error',
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 0,
+        '@typescript-eslint/explicit-function-return-type': 0,
+      },
     },
   ],
 };

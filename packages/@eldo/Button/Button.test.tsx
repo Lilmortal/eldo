@@ -1,14 +1,14 @@
-import React from 'react';
+// import React from 'react';
 
-import Button from './Button';
+// import Button from './Button';
 
 test('test that jest works', () => {
   expect(1 + 1).toEqual(2);
 });
 
-test('expect Button to have children', () => {
-  const button = <Button text="test">Test</Button>;
+// test('expect Button to have children', () => {
+//   const button = <Button text="test">Test</Button>;
 
-  // use react testing library
-  // expect(button.text()).toEqual('Test');
-});
+//   // use react testing library
+//   // expect(button.text()).toEqual('Test');
+// });

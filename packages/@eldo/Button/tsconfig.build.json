@@ -1,5 +1,5 @@
 {
-  "extends": "@eldo/eslint-config-lint",
+  "extends": "@eldo/tsconfig",
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": ".",
