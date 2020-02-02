@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.1](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.9.0...@eldo/button@1.9.1) (2020-02-02)
+
+**Note:** Version bump only for package @eldo/button
+
+
+
+
+
 # [1.9.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.8.0...@eldo/button@1.9.0) (2020-02-02)
 
 
