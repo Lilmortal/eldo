@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.2.0...@eldo/app@1.3.0) (2020-02-02)
+
+
+### Features
+
+* rename tsconfig.build to tsconfig and run yarn compile for aws ([1679f6a](https://github.com/Lilmortal/eldo/commit/1679f6aa743ef8491d19bfd6ec7cce59e3d320d4))
+
+
+
+
+
 # [1.2.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.1.2...@eldo/app@1.2.0) (2020-02-02)
 
 
