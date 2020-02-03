@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/Lilmortal/eldo/compare/@eldo/eslint-config-lint-tool@1.3.0...@eldo/eslint-config-lint-tool@1.4.0) (2020-02-03)
+
+
+### Features
+
+* clean up scripts and added storybook to package ([9dc3614](https://github.com/Lilmortal/eldo/commit/9dc361414d2c20193e779eb908c218479f53e0cd))
+
+
+
+
+
 # 1.3.0 (2020-02-03)
 
 
