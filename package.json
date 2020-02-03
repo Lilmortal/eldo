@@ -20,6 +20,7 @@
     "login:npm": "npm-cli-login"
   },
   "workspaces": [
+    "packages/**/*",
     "web/**/*"
   ],
   "husky": {
