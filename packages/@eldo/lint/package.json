@@ -10,10 +10,6 @@
     "tsconfig.json"
   ],
   "dependencies": {
-    "@types/jest": "^25.1.1",
-    "@types/node": "^13.7.0",
-    "@types/react": "^16.9.19",
-    "@types/react-dom": "^16.9.5",
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "@typescript-eslint/parser": "^2.18.0",
     "eslint": "^6.8.0",
@@ -27,7 +23,6 @@
     "prettier": "^1.19.1",
     "stylelint": "6.9.0",
     "stylelint-config-prettier": "^8.0.1",
-    "stylelint-config-recommended": "^3.0.0",
-    "typescript": "^3.7.5"
+    "stylelint-config-recommended": "^3.0.0"
   }
 }
