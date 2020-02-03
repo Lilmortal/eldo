@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.9.2...@eldo/button@1.10.0) (2020-02-03)
+
+
+### Features
+
+* migrate webpack to packages and all apps used it ([fbfc533](https://github.com/Lilmortal/eldo/commit/fbfc5332650917e3d6b19ccec84bab990b79daaa))
+
+
+
+
+
 ## [1.9.2](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.9.1...@eldo/button@1.9.2) (2020-02-03)
 
 
