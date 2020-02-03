@@ -1,11 +1,3 @@
 {
-  "extends": "@eldo/tsconfig",
-  "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": ".",
-    "baseUrl": "./",
-    "declarationDir": "./dist"
-  },
-  "include": ["."],
-  "exclude": ["*.stories*", "*.test*", "dist"]
+  "extends": "@eldo/eslint-config-lint/tsconfig.json"
 }

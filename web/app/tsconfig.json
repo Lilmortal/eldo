@@ -1,3 +1,3 @@
 {
-  "extends": "@eldo/tsconfig"
+  "extends": "@eldo/eslint-config-lint/tsconfig.json"
 }

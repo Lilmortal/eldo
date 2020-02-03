@@ -2,10 +2,8 @@
   "name": "@eldo/button",
   "version": "1.11.0",
   "license": "MIT",
-  "prettier": "@eldo/prettier",
   "scripts": {
-    "build": "webpack --config ./webpack.config.js",
-    "compile": "tsc --project ./tsconfig.json && cpx '*.css' 'dist'"
+    "build": "webpack --config ./webpack.config.js"
   },
   "peerDependencies": {
     "@storybook/react": "^5.3.9",
@@ -13,11 +11,8 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "typescript": "^3.7.5"
-  },
-  "dependencies": {
-    "@eldo/tsconfig": "^1.4.1",
+    "@eldo/lint": "^1.1.0",
     "@eldo/webpack": "^1.2.1",
-    "cpx": "^1.5.0"
+    "typescript": "^3.7.5"
   }
 }
