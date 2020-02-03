@@ -8,12 +8,13 @@
     "build": "webpack --config ./webpack.prod.js"
   },
   "peerDependencies": {
+    "@eldo/eslint-config-lint": "^1.1.0",
+    "@eldo/webpack": "^1.2.1",
     "@storybook/react": "^5.3.9",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@eldo/button": "^1.11.0",
-    "@eldo/webpack": "^1.2.1"
+    "@eldo/button": "^1.11.0"
   }
 }

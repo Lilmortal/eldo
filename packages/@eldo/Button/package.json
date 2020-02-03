@@ -2,6 +2,7 @@
   "name": "@eldo/button",
   "version": "1.11.0",
   "license": "MIT",
+  "prettier": "@eldo/prettier",
   "scripts": {
     "build": "webpack --config ./webpack.config.js",
     "compile": "tsc --project ./tsconfig.json && cpx '*.css' 'dist'"
