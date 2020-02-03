@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.3.0...@eldo/app@1.3.1) (2020-02-02)
+
+
+### Bug Fixes
+
+* pass publishDir in webpack ([df119de](https://github.com/Lilmortal/eldo/commit/df119de16acc3a26ee203dc21a575ce4ba7108e5))
+* pass publishDir in webpack dev ([9537402](https://github.com/Lilmortal/eldo/commit/9537402b2e988e88bb4961db667f0b5599a89aa4))
+
+
+
+
+
 # [1.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.2.0...@eldo/app@1.3.0) (2020-02-02)
 
 
