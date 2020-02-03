@@ -1,6 +1,6 @@
 {
   "name": "@eldo/button",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "license": "MIT",
   "scripts": {
     "build": "webpack --config ./webpack.config.js",
@@ -15,8 +15,8 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@eldo/tsconfig": "^1.4.0",
-    "@eldo/webpack": "^1.2.0",
+    "@eldo/tsconfig": "^1.4.1",
+    "@eldo/webpack": "^1.2.1",
     "cpx": "^1.5.0"
   }
 }
