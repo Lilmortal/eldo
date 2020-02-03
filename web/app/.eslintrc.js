@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@eldo/eslint-config-lint',
+  extends: '@eldo/eslint-config-lint-tool',
 };

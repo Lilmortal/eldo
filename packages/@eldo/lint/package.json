@@ -1,5 +1,5 @@
 {
-  "name": "@eldo/eslint-config-lint",
+  "name": "@eldo/eslint-config-lint-tool",
   "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",

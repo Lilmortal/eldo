@@ -9,7 +9,7 @@
     "build": "webpack --config ./webpack.prod.js"
   },
   "peerDependencies": {
-    "@eldo/eslint-config-lint": "^1.1.0",
+    "@eldo/eslint-config-lint-tool": "^1.1.0",
     "@eldo/webpack": "^1.2.1",
     "@storybook/react": "^5.3.9",
     "react": "^16.12.0",
