@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.11.0...@eldo/button@1.12.0) (2020-02-03)
+
+
+### Features
+
+* moved eslint, tsconfig, prettier and stylelint to packages ([b4aa37f](https://github.com/Lilmortal/eldo/commit/b4aa37f757234b4c2fea276b3e496b7cc8762740))
+
+
+
+
+
 # [1.11.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.10.0...@eldo/button@1.11.0) (2020-02-03)
 
 
