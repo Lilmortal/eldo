@@ -28,14 +28,18 @@ module.exports = ({ dir, type, title }) => {
     entry: {
       app: [
         // 'babel-polyfill',
-        `${dir}/index.ts`,
+        `${dir}/index.ts${type === 'app' ? 'x' : ''}`,
       ],
+    },
+    resolve: {
+      extensions: ['.ts', '.tsx', '.js'],
     },
     module: {
       rules: [
         {
           test: /\.inline.svg$/,
           use: ['svg-react-loader'],
+          exclude: /node_modules/,
         },
         {
           test: /\.(png|jpg|jpeg|gif|svg)$/,
@@ -47,6 +51,7 @@ module.exports = ({ dir, type, title }) => {
               },
             },
           ],
+          exclude: /node_modules/,
         },
         {
           test: /\.(woff|woff2|eot|ttf|otf)$/,
@@ -59,10 +64,10 @@ module.exports = ({ dir, type, title }) => {
               },
             },
           ],
+          exclude: /node_modules/,
         },
         {
           test: /\.(ts|tsx)$/,
-          exclude: /node_modules/,
           use: [
             {
               loader: 'babel-loader',
@@ -75,7 +80,9 @@ module.exports = ({ dir, type, title }) => {
                 plugins: ['@babel/plugin-syntax-dynamic-import'],
               },
             },
+            'awesome-typescript-loader',
           ],
+          exclude: /node_modules/,
         },
       ],
     },

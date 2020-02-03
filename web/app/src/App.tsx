@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import Button from '@eldo/button';
 
@@ -11,4 +10,4 @@ const App: React.FunctionComponent<{}> = () => (
   </Button>
 );
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default App;

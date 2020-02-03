@@ -13,6 +13,7 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@eldo/button": "^1.9.2"
+    "@eldo/button": "^1.9.2",
+    "@eldo/webpack": "^1.1.1"
   }
 }

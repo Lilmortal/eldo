@@ -1,11 +1,9 @@
 {
   "name": "@eldo/button",
   "version": "1.9.2",
-  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open --config ./webpack.dev.js",
-    "build": "webpack --config ./webpack.prod.js",
+    "build": "webpack --config ./webpack.config.js",
     "compile": "tsc --project ./tsconfig.json && cpx '*.css' 'dist'"
   },
   "peerDependencies": {
