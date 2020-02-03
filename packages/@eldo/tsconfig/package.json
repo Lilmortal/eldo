@@ -5,5 +5,8 @@
   "license": "MIT",
   "files": [
     "tsconfig.json"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.4"
+  }
 }
