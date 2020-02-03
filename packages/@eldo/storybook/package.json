@@ -8,6 +8,7 @@
     "build:sb": "build-storybook"
   },
   "dependencies": {
+    "@eldo/button": "^1.13.0",
     "@eldo/eslint-config-lint-tool": "^1.3.0",
     "@storybook/addon-actions": "^5.3.10",
     "@storybook/addon-knobs": "^5.3.10",

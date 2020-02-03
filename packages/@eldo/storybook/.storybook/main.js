@@ -1,5 +1,7 @@
 const path = require("path");
 
+// const button = require("@eldo/button");
+
 module.exports = {
   stories: [
     `../../../../packages/**/*.stories.tsx`,
