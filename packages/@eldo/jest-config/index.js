@@ -1,4 +1,6 @@
-const setupTests = (module.exports = {
+const styleMock = require("./__mocks__/styleMock");
+
+module.exports = {
   clearMocks: true,
   coverageDirectory: "coverage",
   coverageReporters: ["text", "clover"],
@@ -16,14 +18,16 @@ const setupTests = (module.exports = {
   // to a Javascript file.
   moduleNameMapper: {
     // "@eldo/(.+)$": "<rootDir>packages/$1",
-    "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js",
+    "\\.(css|scss)$": "identity-obj-proxy",
   },
   notify: true,
   notifyMode: "always",
-  roots: ["<rootDir>packages"],
+  roots: ["<rootDir>"],
   testMatch: ["**/__tests__/*.+(ts|tsx|js)", "**/*.test.+(ts|tsx|js)"],
   transform: {
     "^.+\\.(ts|tsx)$": "ts-jest",
   },
-  // setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
-});
+  // setupFilesAfterEnv: require("@testing-library/jest-dom/extend-expect"),
+};
+
+// where to place __mocks and setupTests

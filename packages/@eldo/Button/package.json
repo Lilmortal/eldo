@@ -3,6 +3,7 @@
   "version": "1.12.1",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "build": "webpack --config ./webpack.config.js"
   },
   "peerDependencies": {
@@ -11,6 +12,7 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@eldo/jest-config": "^1.2.0",
     "@eldo/lint": "^1.1.0",
     "@eldo/webpack": "^1.2.1",
     "typescript": "^3.7.5"

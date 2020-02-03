@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint --fix",
     "start": "webpack-dev-server  --open --config ./webpack.dev.js",
+    "test": "jest",
     "build": "webpack --config ./webpack.prod.js"
   },
   "peerDependencies": {
@@ -16,6 +17,7 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@eldo/button": "^1.12.1"
+    "@eldo/button": "^1.12.1",
+    "@eldo/jest-config": "^1.2.0"
   }
 }
