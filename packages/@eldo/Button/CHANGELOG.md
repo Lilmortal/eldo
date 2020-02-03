@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.2](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.9.1...@eldo/button@1.9.2) (2020-02-03)
+
+
+### Bug Fixes
+
+* button now imports @eldo/webpack ([4b835e1](https://github.com/Lilmortal/eldo/commit/4b835e15167cdd0e61d38f9e3faeb8061fa190e7))
+
+
+
+
+
 ## [1.9.1](https://github.com/Lilmortal/eldo/compare/@eldo/button@1.9.0...@eldo/button@1.9.1) (2020-02-02)
 
 **Note:** Version bump only for package @eldo/button
