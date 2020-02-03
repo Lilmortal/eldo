@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 // const StyleLintPlugin = require('stylelint-webpack-plugin');
 
-module.exports = (dir) => {
+module.exports = ({ dir }) => {
   return {
     mode: 'development',
     devtool: 'inline-source-map',

@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
-module.exports = (dir) => {
+module.exports = ({ dir }) => {
   return {
     mode: 'production',
     // We use [chunkhash] here so that each bundle have a different chunk number.
