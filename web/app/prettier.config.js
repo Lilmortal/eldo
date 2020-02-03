@@ -1,1 +1,1 @@
-module.exports = require('@eldo/eslint-config-lint/prettier.config')
+module.exports = require('@eldo/eslint-config-lint/.prettierc');
