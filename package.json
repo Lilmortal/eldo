@@ -7,15 +7,16 @@
   "private": true,
   "scripts": {
     "start": "yarn --cwd ./web/app start",
-    "start:sb": "start-storybook -p 9000",
-    "compile": "lerna run compile --stream",
+    "start:sb": "lerna run start:sb --stream",
+    "lint:ts": "lerna run lint:ts --stream --parallel",
+    "lint:css": "lerna run lint:css --stream --parallel",
+    "lint": "lerna run lint --stream --parallel",
     "build": "lerna run build --stream --parallel",
-    "build:sb": "build-storybook",
-    "lint:css": "npx stylelint packages/**/*.css web/app/**/*.css --fix --allow-empty-input",
-    "lint:ts": "npx eslint packages/**/*.ts{,x} web/app/**/*.ts{,x} --fix --no-error-on-unmatched-pattern",
-    "lint": "run-p -c 'lint:* --fix'",
-    "test": "jest --watch",
-    "test:ci": "jest",
+    "build:sb": "lerna run build:sb --stream",
+    "test": "lerna run test --scope=@eldo/app --stream",
+    "test:components": "lerna run test --scope=@eldo/* --ignore=@eldo/app --stream  --parallel",
+    "test:all": "lerna run test --stream --parallel",
+    "test:ci": "lerna run test:ci --stream --parallel",
     "release": "lerna publish --no-commit-hooks",
     "login:npm": "npm-cli-login"
   },
@@ -45,21 +46,10 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@storybook/addon-actions": "^5.3.9",
-    "@storybook/addon-knobs": "^5.3.9",
-    "@storybook/addon-links": "^5.3.9",
-    "@storybook/addons": "^5.3.9",
-    "@storybook/react": "^5.3.9",
     "@testing-library/react": "^9.4.0",
-    "@types/storybook__addon-actions": "^5.2.1",
-    "@types/storybook__addon-knobs": "^5.2.1",
-    "@types/storybook__addon-links": "^5.2.1",
-    "@types/storybook__react": "^5.2.1",
-    "@types/vfile-message": "^2.0.0",
     "husky": "^4.2.1",
     "lerna": "^3.20.2",
-    "lint-staged": "^10.0.7",
-    "npm-run-all": "^4.1.5"
+    "lint-staged": "^10.0.7"
   },
   "dependencies": {
     "npm-cli-login": "^0.1.1"

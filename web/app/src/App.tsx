@@ -6,7 +6,8 @@ import './index.css';
 
 const App: React.FunctionComponent<{}> = () => (
   <Button text="test">
-    <div className="test">Wee</div>Test
+    <div className="test">Wee</div>
+    Test
   </Button>
 );
 
