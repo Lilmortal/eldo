@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/Lilmortal/eldo/compare/@eldo/app@2.0.0...@eldo/app@2.0.1) (2020-02-04)
+
+**Note:** Version bump only for package @eldo/app
+
+
+
+
+
 # [2.0.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.10.2...@eldo/app@2.0.0) (2020-02-04)
 
 
