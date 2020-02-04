@@ -2,6 +2,7 @@
   "name": "@eldo/<%= projectName %>",
   "version": "1.0.0",
   "license": "MIT",
+  "main": "index.ts",
   "scripts": {
     "test": "jest --watch",
     "test:ci": "jest",

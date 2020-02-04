@@ -18,6 +18,7 @@ const UTILS_DIR = `${gitRoot()}/utils`;
 const APP = "App";
 const COMPONENT = "Component";
 const UTILS = "Utils";
+const STYLES = "Styles";
 
 clear();
 console.log(
@@ -29,7 +30,7 @@ const questions = [
     name: "type",
     type: "list",
     message: "What kind of package do you want to create?",
-    choices: [COMPONENT, APP, UTILS],
+    choices: [COMPONENT, APP, UTILS, STYLES],
   },
   {
     name: "name",
@@ -56,6 +57,8 @@ const type = inquirer.prompt(questions).then(result => {
     createComponent(dirName);
   } else if (result.type === UTILS) {
     createUtils(result.name);
+  } else if (result.type === STYLES) {
+    createStyles(result.name);
   } else {
     console.error("There is an error.");
   }
@@ -124,6 +127,32 @@ const createUtils = name => {
     template.createDirectoryContents({
       rootPath: PACKAGE_DIR,
       templatePath: path.resolve(__dirname, "template/utils"),
+      projectPath: name,
+      projectName: name,
+    });
+
+    const packageJsonDir = `${PACKAGE_DIR}/${name}`;
+    template.postProcess({
+      templatePath: packageJsonDir,
+      targetPath: packageJsonDir,
+    });
+  } catch (e) {
+    console.log(chalk.red(e));
+    spinner.stop();
+  }
+
+  spinner.stop();
+};
+
+const createStyles = name => {
+  if (!fs.existsSync(PACKAGE_DIR)) {
+    fs.mkdirSync(PACKAGE_DIR);
+  }
+
+  try {
+    template.createDirectoryContents({
+      rootPath: PACKAGE_DIR,
+      templatePath: path.resolve(__dirname, "template/styles"),
       projectPath: name,
       projectName: name,
     });
