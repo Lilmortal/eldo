@@ -1,6 +1,6 @@
 {
   "name": "@eldo/app",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "main": "./webpack.dev.js",
   "repository": "https://github.com/Lilmortal/eldo.git",
   "author": "Jack Tan <jacktan165@gmail.com>",
