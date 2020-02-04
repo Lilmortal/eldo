@@ -8,8 +8,6 @@ const cli = require("clui");
 const fs = require("fs");
 const path = require("path");
 const gitRoot = require("git-root");
-const ejs = require("ejs");
-const shell = require("shelljs");
 
 const template = require("./template");
 
@@ -31,7 +29,7 @@ const questions = [
     name: "type",
     type: "list",
     message: "What kind of package do you want to create?",
-    choices: [COMPONENT, APP, UTILS],
+    choices: [COMPONENT, APP, UTILS, "wtf"],
   },
   {
     name: "name",
@@ -57,7 +55,7 @@ const type = inquirer.prompt(questions).then(result => {
   } else if (result.type === COMPONENT) {
     createComponent(dirName);
   } else if (result.type === UTILS) {
-    createUtils(dirName);
+    createUtils(result.name);
   } else {
     console.error("There is an error.");
   }

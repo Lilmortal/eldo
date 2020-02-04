@@ -19,7 +19,7 @@
     "test:ci": "lerna run test:ci --stream --parallel",
     "release": "lerna publish --no-commit-hooks",
     "login:npm": "npm-cli-login",
-    "new": "elit"
+    "create:new": "elit"
   },
   "workspaces": [
     "packages/**/*",

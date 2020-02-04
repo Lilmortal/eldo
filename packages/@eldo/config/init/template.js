@@ -1,3 +1,8 @@
+const fs = require("fs");
+const path = require("path");
+const ejs = require("ejs");
+const shell = require("shelljs");
+
 const SKIP_FILES = [];
 const LOWER_CASE_FILES = ["package.json"];
 
