@@ -27,6 +27,10 @@ module.exports = {
     'prettier/prettier': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-var-requires': [
+      'error',
+      { extensions: ['.js', '.jsx'] },
+    ],
     'import/extensions': 'off',
     'react/jsx-filename-extension': [
       'error',

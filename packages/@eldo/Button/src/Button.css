@@ -1,5 +1,7 @@
-.Button {
-  color: red
+:root {
+  --color-black: green;
+}
 
-  
+.Button {
+  color: var(--color-black);
 }
