@@ -1,10 +1,11 @@
 const path = require("path");
+const gitRoot = require("git-root");
+
+const PACKAGE_DIR = `${gitRoot()}/packages/@eldo`;
+const APP_DIR = `${gitRoot()}/web`;
 
 module.exports = {
-  stories: [
-    `../../../../../packages/**/*.stories.tsx`,
-    `../../../../../web/app/**/*.stories.tsx`,
-  ],
+  stories: [`${PACKAGE_DIR}/**/*.stories.tsx`, `${APP_DIR}/**/*.stories.tsx`],
   addons: [
     "@storybook/addon-actions",
     "@storybook/addon-links",

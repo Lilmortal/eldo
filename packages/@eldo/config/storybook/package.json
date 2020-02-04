@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@types/vfile-message": "^2.0.0",
-    "awesome-typescript-loader": "^5.2.1"
+    "awesome-typescript-loader": "^5.2.1",
+    "git-root": "^1.0.0"
   }
 }
