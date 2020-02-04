@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/Lilmortal/eldo/compare/@eldo/storybook@2.0.1...@eldo/storybook@2.1.0) (2020-02-04)
+
+
+### Features
+
+* storybook relies on git-hook for finding stories ([37c21c7](https://github.com/Lilmortal/eldo/commit/37c21c7ba1b2ee10f850249062d805a17e2c4337))
+
+
+
+
+
 ## [2.0.1](https://github.com/Lilmortal/eldo/compare/@eldo/storybook@2.0.0...@eldo/storybook@2.0.1) (2020-02-04)
 
 **Note:** Version bump only for package @eldo/storybook
