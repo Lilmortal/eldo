@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/Lilmortal/eldo/compare/@eldo/jest-config@1.3.0...@eldo/jest-config@2.0.0) (2020-02-04)
+
+
+### Features
+
+* finalize product ([3040e5a](https://github.com/Lilmortal/eldo/commit/3040e5a35a665859f0b74870a6c7544db64ed399))
+
+
+### BREAKING CHANGES
+
+* Migrate all configs to /config folder
+
+
+
+
+
 # [1.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/jest-config@1.2.0...@eldo/jest-config@1.3.0) (2020-02-03)
 
 

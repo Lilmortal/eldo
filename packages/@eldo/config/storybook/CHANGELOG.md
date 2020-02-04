@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/Lilmortal/eldo/compare/@eldo/storybook@1.2.4...@eldo/storybook@2.0.0) (2020-02-04)
+
+
+### Features
+
+* finalize product ([adacd85](https://github.com/Lilmortal/eldo/commit/adacd857ef64ad3ecf39578e5008b507a331f703))
+* finalize product ([3040e5a](https://github.com/Lilmortal/eldo/commit/3040e5a35a665859f0b74870a6c7544db64ed399))
+
+
+### BREAKING CHANGES
+
+* Migrate all configs to /config folder
+* Migrate all configs to /config folder
+
+
+
+
+
 ## [1.2.4](https://github.com/Lilmortal/eldo/compare/@eldo/storybook@1.2.3...@eldo/storybook@1.2.4) (2020-02-04)
 
 **Note:** Version bump only for package @eldo/storybook
