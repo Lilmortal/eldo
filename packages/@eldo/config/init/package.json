@@ -1,6 +1,6 @@
 {
   "name": "@eldo/init",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "main": "index.js",
   "bin": {
     "elit": "./index.js"

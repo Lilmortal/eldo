@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/Lilmortal/eldo/compare/@eldo/init@2.3.0...@eldo/init@2.4.0) (2020-02-04)
+
+
+### Features
+
+* added styles for etils ([39c5588](https://github.com/Lilmortal/eldo/commit/39c5588fb2d10f409400aa6801927dbc20f76c37))
+
+
+
+
+
 # [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/init@2.2.0...@eldo/init@2.3.0) (2020-02-04)
 
 
