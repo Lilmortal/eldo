@@ -18,7 +18,8 @@
     "test:all": "lerna run test --stream --parallel",
     "test:ci": "lerna run test:ci --stream --parallel",
     "release": "lerna publish --no-commit-hooks",
-    "login:npm": "npm-cli-login"
+    "login:npm": "npm-cli-login",
+    "wee": "eldo-create"
   },
   "workspaces": [
     "packages/**/*",
@@ -43,6 +44,7 @@
     "lerna": "^3.20.2"
   },
   "dependencies": {
+    "@eldo/init": "^1.1.0",
     "npm-cli-login": "^0.1.1"
   }
 }
