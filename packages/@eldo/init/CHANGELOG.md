@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/Lilmortal/eldo/compare/@eldo/init@1.1.1...@eldo/init@1.2.0) (2020-02-04)
+
+
+### Features
+
+* finished @eldo/init ([21075bf](https://github.com/Lilmortal/eldo/commit/21075bfa275a171203904ec451907985a31e2b63))
+
+
+
+
+
 ## [1.1.1](https://github.com/Lilmortal/eldo/compare/@eldo/init@1.1.0...@eldo/init@1.1.1) (2020-02-04)
 
 
