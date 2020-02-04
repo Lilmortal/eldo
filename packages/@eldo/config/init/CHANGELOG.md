@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/Lilmortal/eldo/compare/@eldo/init@2.1.1...@eldo/init@2.2.0) (2020-02-04)
+
+
+### Features
+
+* fix init templates not importing correctly ([2466d9e](https://github.com/Lilmortal/eldo/commit/2466d9ec231b1543430eaa2a068ee4b49754dc46))
+
+
+
+
+
 ## [2.1.1](https://github.com/Lilmortal/eldo/compare/@eldo/init@2.1.0...@eldo/init@2.1.1) (2020-02-04)
 
 **Note:** Version bump only for package @eldo/init
