@@ -8,13 +8,13 @@ const prod = require("./webpack.prod");
 // mode = "DEV" || "PROD"
 module.exports = ({
   dir,
-  type = "app",
+  isApp = false,
   title = "",
-  mode = "DEV",
+  isProd = false,
 }) => config => {
   return merge(
-    common({ dir, type, title }),
-    mode === "DEV" ? dev({ dir }) : prod({ dir }),
+    common({ dir, isApp, title }),
+    isProd ? prod({ dir }) : dev({ dir }),
     config
   );
 };

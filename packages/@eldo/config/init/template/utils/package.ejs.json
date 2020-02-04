@@ -1,0 +1,18 @@
+{
+  "name": "@eldo/<%= projectName %>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watch",
+    "test:ci": "jest",
+    "lint:ts": "eslint **/*.ts{,x} --fix --no-error-on-unmatched-pattern",
+    "lint": "yarn lint",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "@eldo/eslint-config-lint-tool": "^1.5.0",
+    "@eldo/jest-config": "^1.3.0",
+    "@eldo/webpack": "^1.3.0",
+    "typescript": "^3.7.5"
+  }
+}
