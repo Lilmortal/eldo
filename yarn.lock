@@ -1044,11 +1044,6 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@eldo/init@^1.1.0":
-  version "1.2.0"
-  resolved "http://134.209.96.47:4873/@eldo%2finit/-/init-1.2.0.tgz#0ccf31f80972af18edb6a27d867355d293b1e643"
-  integrity sha512-HW7pYEqEPNiPQ8TXSDSjLVrrRvQKmehAiitI1Hz/Vn2IZ+shC90oF+ScpXDssf5A1FJBDrqQgIVvfY53Jm1kEA==
-
 "@emotion/cache@^10.0.27", "@emotion/cache@^10.0.9":
   version "10.0.27"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.27.tgz#7895db204e2c1a991ae33d51262a3a44f6737303"

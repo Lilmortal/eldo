@@ -29,7 +29,7 @@ const questions = [
     name: "type",
     type: "list",
     message: "What kind of package do you want to create?",
-    choices: [COMPONENT, APP, UTILS, "wtf"],
+    choices: [COMPONENT, APP, UTILS],
   },
   {
     name: "name",
