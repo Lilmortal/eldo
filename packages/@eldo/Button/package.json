@@ -1,6 +1,12 @@
 {
   "name": "@eldo/button",
   "version": "1.15.1",
+  "repository": "https://github.com/Lilmortal/eldo.git",
+  "author": "Jack Tan <jacktan165@gmail.com>",
+  "keywords": [
+    "eldo",
+    "button"
+  ],
   "license": "MIT",
   "scripts": {
     "test": "jest --watch",

@@ -2,6 +2,11 @@
   "name": "@eldo/app",
   "version": "1.10.1",
   "main": "./webpack.dev.js",
+  "repository": "https://github.com/Lilmortal/eldo.git",
+  "author": "Jack Tan <jacktan165@gmail.com>",
+  "keywords": [
+    "eldo"
+  ],
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server  --open --config ./webpack.dev.js",
@@ -13,17 +18,17 @@
     "build": "webpack --config ./webpack.prod.js"
   },
   "peerDependencies": {
-    "@eldo/eslint-config-lint-tool": "^1.4.1",
-    "@eldo/webpack": "^1.2.1",
     "@storybook/react": "^5.3.9",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@eldo/eslint-config-lint-tool": "^1.4.1",
+    "@eldo/jest-config": "^1.3.0",
+    "@eldo/webpack": "^1.2.1",
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "@eldo/button": "^1.15.1",
-    "@eldo/jest-config": "^1.3.0"
+    "@eldo/button": "^1.15.1"
   }
 }
