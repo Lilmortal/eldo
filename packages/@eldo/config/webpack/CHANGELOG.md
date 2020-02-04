@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/Lilmortal/eldo/compare/@eldo/webpack@2.0.0...@eldo/webpack@2.1.0) (2020-02-04)
+
+
+### Features
+
+* etils can now create utils template ([3dec86c](https://github.com/Lilmortal/eldo/commit/3dec86cc2992b5a3735170a3a957cd4cd503bae5))
+
+
+
+
+
 # [2.0.0](https://github.com/Lilmortal/eldo/compare/@eldo/webpack@1.3.2...@eldo/webpack@2.0.0) (2020-02-04)
 
 
