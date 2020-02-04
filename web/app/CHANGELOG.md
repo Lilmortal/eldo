@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.9.1...@eldo/app@1.10.0) (2020-02-04)
+
+
+### Features
+
+* added init package and fix eslint config ([1b1d467](https://github.com/Lilmortal/eldo/commit/1b1d467009a921d89b7a27bd4545080eec954938))
+* added postcss ([e2dd6e6](https://github.com/Lilmortal/eldo/commit/e2dd6e668abfec23e771cf7481e1db50bf66db41))
+
+
+
+
+
 ## [1.9.1](https://github.com/Lilmortal/eldo/compare/@eldo/app@1.9.0...@eldo/app@1.9.1) (2020-02-03)
 
 **Note:** Version bump only for package @eldo/app
