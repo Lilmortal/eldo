@@ -12,16 +12,8 @@
     "lint": "run-p -c 'lint:* --fix'",
     "build": "webpack --config ./webpack.prod.js"
   },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "yarn lint:ts"
-    ],
-    "**/*.css": [
-      "yarn lint:css"
-    ]
-  },
   "peerDependencies": {
-    "@eldo/eslint-config-lint-tool": "^1.1.0",
+    "@eldo/eslint-config-lint-tool": "^1.4.1",
     "@eldo/webpack": "^1.2.1",
     "@storybook/react": "^5.3.9",
     "react": "^16.12.0",

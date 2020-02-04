@@ -27,16 +27,8 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged --allow-empty"
+      "pre-commit": "yarn lint:ts & yarn lint:css"
     }
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "yarn lint:ts"
-    ],
-    "**/*.css": [
-      "yarn lint:css"
-    ]
   },
   "commitlint": {
     "extends": [
@@ -48,8 +40,7 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@testing-library/react": "^9.4.0",
     "husky": "^4.2.1",
-    "lerna": "^3.20.2",
-    "lint-staged": "^10.0.7"
+    "lerna": "^3.20.2"
   },
   "dependencies": {
     "npm-cli-login": "^0.1.1"
