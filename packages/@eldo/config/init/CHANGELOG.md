@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/init@2.2.0...@eldo/init@2.3.0) (2020-02-04)
+
+
+### Features
+
+* removed one unwanted choice and upgrade packages ([c8adbd9](https://github.com/Lilmortal/eldo/commit/c8adbd9d54e63a3eda4a19a001f1199006c77323))
+
+
+
+
+
 # [2.2.0](https://github.com/Lilmortal/eldo/compare/@eldo/init@2.1.1...@eldo/init@2.2.0) (2020-02-04)
 
 

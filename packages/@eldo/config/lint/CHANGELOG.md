@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/Lilmortal/eldo/compare/@eldo/eslint-config-lint-tool@2.0.3...@eldo/eslint-config-lint-tool@2.0.4) (2020-02-04)
+
+**Note:** Version bump only for package @eldo/eslint-config-lint-tool
+
+
+
+
+
 ## [2.0.3](https://github.com/Lilmortal/eldo/compare/@eldo/eslint-config-lint-tool@2.0.2...@eldo/eslint-config-lint-tool@2.0.3) (2020-02-04)
 
 **Note:** Version bump only for package @eldo/eslint-config-lint-tool
