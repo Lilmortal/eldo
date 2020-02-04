@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.6](https://github.com/Lilmortal/eldo/compare/@eldo/app@2.0.5...@eldo/app@2.0.6) (2020-02-04)
+
+
+### Bug Fixes
+
+* fix webpack object in app ([f1c22a0](https://github.com/Lilmortal/eldo/commit/f1c22a09a1466a09f41c88ca00410b60f65ff615))
+
+
+
+
+
 ## [2.0.5](https://github.com/Lilmortal/eldo/compare/@eldo/app@2.0.4...@eldo/app@2.0.5) (2020-02-04)
 
 **Note:** Version bump only for package @eldo/app
