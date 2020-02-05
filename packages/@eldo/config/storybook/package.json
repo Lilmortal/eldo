@@ -1,6 +1,6 @@
 {
   "name": "@eldo/storybook",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,7 @@
     "build:sb": "build-storybook"
   },
   "dependencies": {
-    "@eldo/eslint-config-lint-tool": "^2.0.5",
+    "@eldo/eslint-config-lint-tool": "^2.0.6",
     "@storybook/addon-actions": "^5.3.10",
     "@storybook/addon-knobs": "^5.3.10",
     "@storybook/addon-links": "^5.3.10",
