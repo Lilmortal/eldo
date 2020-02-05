@@ -1,4 +1,8 @@
-:root {
-  --test: pink;
-  --pp: blue;
+:root,
+[data-theme='default'] {
+  --color-primary: red;
+}
+
+[data-theme='dark'] {
+  --color-primary: blue;
 }

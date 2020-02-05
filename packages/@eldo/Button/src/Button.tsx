@@ -13,8 +13,8 @@ const Button: React.FunctionComponent<ButtonProps> = ({
   text,
   children,
 }: ButtonProps) => (
-  <button value={text} className="Button" type="button">
-    <div className="button__test">{children}</div>
+  <button value={text} className="button__test" type="button">
+    {children}
   </button>
 );
 
