@@ -1,9 +1,11 @@
+@import '@eldo/styles';
+
 :root {
-  --color-black: green;
+  /* --color-black: green; */
 }
 
 .button {
   &__test {
-    color: var(--color-black);
+    color: var(--pp);
   }
 }
