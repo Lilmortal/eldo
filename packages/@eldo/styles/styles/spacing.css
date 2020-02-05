@@ -1,4 +1,4 @@
-// Following the Fibonacci sequences.
+/* Following the Fibonacci sequences. */
 :root {
   --space-unit: 1em;
   --space-xxxxs: calc(0.125 * var(--space-unit));

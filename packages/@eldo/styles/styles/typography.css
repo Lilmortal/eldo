@@ -15,14 +15,14 @@
   --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
 }
 
-@supports (--css: variables) {
+/* @supports (--css: variables) {
   :root {
     @include breakpoint(md) {
       --text-base-size: 1.25em;
       --text-scale-ratio: 1.25;
     }
   }
-}
+} */
 
 body {
   font-size: var(--text-base-size);
