@@ -23,6 +23,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@eldo/styles": "^1.4.0"
+    "@eldo/styles": "^1.4.0",
+    "@testing-library/react": "^9.4.0"
   }
 }

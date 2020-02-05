@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { render, screen } from '@testing-library/react';
 import Button from './Button';
 
 test('test that jest works', () => {
@@ -11,8 +11,7 @@ test('test that another jest works', () => {
 });
 
 test('expect Button to have children', () => {
-  const button = <Button text="test">Test</Button>;
+  render(<Button text="test">Test</Button>);
 
-  // use react testing library
-  expect(button.props.children).toEqual('Test');
+  expect(screen.queryByText('Test')).toBeInTheDocument();
 });
