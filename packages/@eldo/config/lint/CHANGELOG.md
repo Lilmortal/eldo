@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/Lilmortal/eldo/compare/@eldo/eslint-config-lint-tool@2.1.0...@eldo/eslint-config-lint-tool@2.2.0) (2020-02-05)
+
+
+### Features
+
+* upgraded eslint tool dependencies on @eldo/styles ([b832af1](https://github.com/Lilmortal/eldo/commit/b832af12cf48c1e79e792df5c9994dc54522f14e))
+* upgraded eslint tool dependencies on @eldo/styles ([a7e14d7](https://github.com/Lilmortal/eldo/commit/a7e14d792e11f04a576f532186e975ae362e3eba))
+
+
+
+
+
 # [2.1.0](https://github.com/Lilmortal/eldo/compare/@eldo/eslint-config-lint-tool@2.0.6...@eldo/eslint-config-lint-tool@2.1.0) (2020-02-05)
 
 
