@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/Lilmortal/eldo/compare/@eldo/styles@1.3.0...@eldo/styles@1.3.1) (2020-02-05)
+
+
+### Bug Fixes
+
+* migrate eslint tools in styles from devDependencies to dependencies ([622b982](https://github.com/Lilmortal/eldo/commit/622b982756880bb8eba25c997edaa67f5555b4da))
+* migrate eslint tools in styles from devDependencies to dependencies ([43531ff](https://github.com/Lilmortal/eldo/commit/43531ff7e775652d468180cc295b3b6beb9ba3ac))
+
+
+
+
+
 # [1.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/styles@1.2.0...@eldo/styles@1.3.0) (2020-02-05)
 
 
