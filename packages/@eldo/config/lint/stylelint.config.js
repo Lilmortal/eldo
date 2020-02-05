@@ -3,5 +3,9 @@ module.exports = {
   rules: {
     'declaration-block-trailing-semicolon': 'always',
     'selector-nested-pattern': '^&',
+    'at-rule-no-unknown': [
+      true,
+      { ignoreAtRules: ['mixin', 'define-mixin', 'mixin-content'] },
+    ],
   },
 };

@@ -4,5 +4,13 @@
   &__test {
     color: var(--color-primary);
     font-size: var(--text-md);
+
+    @mixin md {
+      background-color: green;
+    }
+
+    @mixin lg {
+      background-color: blue;
+    }
   }
 }

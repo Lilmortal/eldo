@@ -13,3 +13,15 @@
   --space-xxxl: calc(8.5 * var(--space-unit));
   --space-xxxxl: calc(13.75 * var(--space-unit));
 }
+
+@define-mixin md {
+  @media (width < 960px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin lg {
+  @media (width >= 960px) {
+    @mixin-content;
+  }
+}
