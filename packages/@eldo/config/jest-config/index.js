@@ -1,5 +1,3 @@
-const styleMock = require("./__mocks__/styleMock");
-
 module.exports = {
   clearMocks: true,
   coverageDirectory: "coverage",
@@ -17,8 +15,8 @@ module.exports = {
   // Because Jest only knows how to read Javascript, we need to mock non Javascript files
   // to a Javascript file.
   moduleNameMapper: {
-    // "@eldo/(.+)$": "<rootDir>packages/$1",
-    "\\.(css|scss)$": "identity-obj-proxy",
+    "^@eldo/(.+)$": "@eldo/$1",
+    "\\.(css|scss)$": "@eldo/jest-config/__mocks__/styleMock",
   },
   notify: true,
   notifyMode: "always",
@@ -27,7 +25,5 @@ module.exports = {
   transform: {
     "^.+\\.(ts|tsx)$": "ts-jest",
   },
-  // setupFilesAfterEnv: require("@testing-library/jest-dom/extend-expect"),
+  setupFilesAfterEnv: ["@eldo/jest-config/setupTests.js"],
 };
-
-// where to place __mocks and setupTests
