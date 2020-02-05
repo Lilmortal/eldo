@@ -29,6 +29,7 @@
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "@eldo/button": "^2.1.4"
+    "@eldo/button": "^2.1.4",
+    "@eldo/styles": "^1.1.0"
   }
 }

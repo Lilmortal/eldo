@@ -2,6 +2,8 @@
   --color-black: green;
 }
 
-.Button {
-  color: var(--color-black);
+.button {
+  &__test {
+    color: var(--color-black);
+  }
 }

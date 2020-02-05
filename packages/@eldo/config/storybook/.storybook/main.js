@@ -18,6 +18,20 @@ module.exports = {
     });
     config.resolve.extensions.push(".ts", ".tsx");
 
+    config.module.rules.push({
+      test: /\.css$/,
+      use: [
+        {
+          loader: require.resolve("postcss-loader"),
+          options: {
+            config: {
+              path: `./postcss.config.js`,
+            },
+          },
+        },
+      ],
+    });
+
     return config;
   },
 };

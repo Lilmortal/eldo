@@ -10,7 +10,7 @@ const plugins = [
   new CleanWebpackPlugin({ cleanAfterEveryBuildPatterns: ["dist"] }),
 ];
 
-module.exports = ({ dir, isApp, title }) => {
+module.exports = ({ dir, isApp, entryApp = "", title }) => {
   if (isApp) {
     plugins.push(
       // Get the template and create an index.html with the <script> tags that points to our bundle files injected.
@@ -28,7 +28,7 @@ module.exports = ({ dir, isApp, title }) => {
     entry: {
       app: [
         // 'babel-polyfill',
-        `${dir}/index.ts${isApp ? "x" : ""}`,
+        entryApp ? `${dir}/${entryApp}` : `${dir}/index.ts${isApp ? "x" : ""}`,
       ],
     },
     resolve: {
