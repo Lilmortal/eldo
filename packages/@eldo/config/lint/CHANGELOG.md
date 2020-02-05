@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/eslint-config-lint-tool@2.2.1...@eldo/eslint-config-lint-tool@2.3.0) (2020-02-05)
+
+
+### Features
+
+* added mixins and fix css sourcemaps in dev ([541d527](https://github.com/Lilmortal/eldo/commit/541d527ee17f7617545b0485555edd934446a340))
+
+
+
+
+
 ## [2.2.1](https://github.com/Lilmortal/eldo/compare/@eldo/eslint-config-lint-tool@2.2.0...@eldo/eslint-config-lint-tool@2.2.1) (2020-02-05)
 
 **Note:** Version bump only for package @eldo/eslint-config-lint-tool

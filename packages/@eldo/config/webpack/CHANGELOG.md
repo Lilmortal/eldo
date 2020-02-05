@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/webpack@2.2.2...@eldo/webpack@2.3.0) (2020-02-05)
+
+
+### Features
+
+* added mixins and fix css sourcemaps in dev ([541d527](https://github.com/Lilmortal/eldo/commit/541d527ee17f7617545b0485555edd934446a340))
+
+
+
+
+
 ## [2.2.2](https://github.com/Lilmortal/eldo/compare/@eldo/webpack@2.2.1...@eldo/webpack@2.2.2) (2020-02-05)
 
 **Note:** Version bump only for package @eldo/webpack

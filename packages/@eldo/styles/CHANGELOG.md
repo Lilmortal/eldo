@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/Lilmortal/eldo/compare/@eldo/styles@1.3.1...@eldo/styles@1.4.0) (2020-02-05)
+
+
+### Features
+
+* added mixins and fix css sourcemaps in dev ([541d527](https://github.com/Lilmortal/eldo/commit/541d527ee17f7617545b0485555edd934446a340))
+
+
+
+
+
 ## [1.3.1](https://github.com/Lilmortal/eldo/compare/@eldo/styles@1.3.0...@eldo/styles@1.3.1) (2020-02-05)
 
 
