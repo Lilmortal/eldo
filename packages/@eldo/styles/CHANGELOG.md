@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/Lilmortal/eldo/compare/@eldo/styles@1.1.1...@eldo/styles@1.2.0) (2020-02-05)
+
+
+### Features
+
+* postcss variables now work on storybook ([ff5926d](https://github.com/Lilmortal/eldo/commit/ff5926d2ffa985c86e80e131a2af0aa88fab51a2))
+
+
+
+
+
 ## [1.1.1](https://github.com/Lilmortal/eldo/compare/@eldo/styles@1.1.0...@eldo/styles@1.1.1) (2020-02-04)
 
 **Note:** Version bump only for package @eldo/styles
