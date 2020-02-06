@@ -9,9 +9,7 @@
     "build": "webpack --config ./webpack.config.js"
   },
   "devDependencies": {
+    "@eldo/eslint-config-lint-tool": "^2.3.0",
     "@eldo/webpack": "^2.3.0"
-  },
-  "dependencies": {
-    "@eldo/eslint-config-lint-tool": "^2.3.0"
   }
 }

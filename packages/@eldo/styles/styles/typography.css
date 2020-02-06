@@ -1,3 +1,8 @@
+/* 
+TODO:
+This can be replaced with postcss-font-magician plugin 
+https://github.com/jonathantneal/postcss-font-magician
+*/
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
 @import './mixins.css';
 

@@ -12,7 +12,8 @@ this is to bypass CI linting commit message
 
 "conventionalCommits": true, aumatically update version
 
-test
+TODO:
+Update package.json files[], if you see node_modules everything is included.
 
 ```
   {
