@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
 @import './mixins.css';
 
 :root {
@@ -30,10 +31,14 @@
     --text-base-size: 1.25em;
     --text-scale-ratio: 1.25;
   }
+
+  --text-font: 'Roboto', sans-serif;
+  --title-font: 'Roboto_Condensed', sans-serif;
 }
 
 body {
   font-size: var(--text-base-size);
+  font-family: var(--text-font);
 }
 
 .text-xxxl {
