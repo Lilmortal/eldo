@@ -9,7 +9,7 @@
     "eldo"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=8"
   },
   "scripts": {
     "start": "webpack-dev-server  --open --config ./webpack.dev.js",

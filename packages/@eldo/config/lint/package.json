@@ -7,7 +7,7 @@
   "author": "Jack Tan <jacktan165@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=12"
+    "node": ">=8"
   },
   "files": [
     "index.js",
