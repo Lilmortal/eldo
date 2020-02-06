@@ -1,3 +1,5 @@
-.test {
-  color: red;
+:root {
+  --lightWhite: rgb(204, 214, 246);
+  --darkBlue: rgb(10, 25, 47);
+  --lightGray: rgb(136, 146, 176);
 }

@@ -14,8 +14,8 @@
   --space-xxxxl: calc(13.75 * var(--space-unit));
 }
 
-@define-mixin md {
-  @media (width < 960px) {
+@define-mixin md $width: var(--space-md) {
+  @media (width < $width) {
     @mixin-content;
   }
 }

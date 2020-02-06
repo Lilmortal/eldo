@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['stylelint-config-recommended', 'stylelint-config-prettier'],
+  extends: [
+    'stylelint-config-recommended',
+    'stylelint-config-prettier',
+    'stylelint-a11y/recommended',
+  ],
   rules: {
     'declaration-block-trailing-semicolon': 'always',
     'selector-nested-pattern': '^&',

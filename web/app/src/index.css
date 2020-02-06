@@ -1,3 +1,9 @@
-.test {
-  color: var(--pp);
+@import '@eldo/styles';
+
+body {
+  background-color: var(--body-background);
+}
+
+.text {
+  color: var(--text-primary);
 }

@@ -1,6 +1,10 @@
+@import './color-palette.css';
+
 :root,
 [data-theme='default'] {
   --color-primary: red;
+  --body-background: white;
+  --text-primary: var(--lightGray);
 }
 
 [data-theme='dark'] {
