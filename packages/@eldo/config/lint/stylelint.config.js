@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'stylelint-config-recommended',
     'stylelint-config-prettier',
-    'stylelint-a11y/recommended',
+    'stylelint-a11y',
   ],
   rules: {
     'declaration-block-trailing-semicolon': 'always',
