@@ -1,3 +1,5 @@
+@import './mixins.css';
+
 :root {
   /* body font size */
   --text-base-size: 1em;
@@ -13,16 +15,22 @@
   --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
   --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
   --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
-}
 
-/* @supports (--css: variables) {
-  :root {
-    @include breakpoint(md) {
-      --text-base-size: 1.25em;
-      --text-scale-ratio: 1.25;
-    }
+  @mixin sm {
+    --text-base-size: 1.05em;
+    --text-scale-ratio: 1.25;
   }
-} */
+
+  @mixin md {
+    --text-base-size: 1.1em;
+    --text-scale-ratio: 1.25;
+  }
+
+  @mixin lg {
+    --text-base-size: 1.25em;
+    --text-scale-ratio: 1.25;
+  }
+}
 
 body {
   font-size: var(--text-base-size);
