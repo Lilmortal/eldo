@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](http://134.209.96.47:4873/-/web/detail/@eldo/init/compare/@eldo/init@2.4.5...@eldo/init@2.5.0) (2020-02-06)
+
+
+### Features
+
+* added stylelint-a11y and clean up code ([bad4e43](http://134.209.96.47:4873/-/web/detail/@eldo/init/commits/bad4e439c5914339dd1539970fde0d7816b55ae5))
+* moved dependencies around ([a0b4c78](http://134.209.96.47:4873/-/web/detail/@eldo/init/commits/a0b4c78559c3d13295481fcdfbbf42ce8a6bef85))
+
+
+
+
+
 ## [2.4.5](https://github.com/Lilmortal/eldo/compare/@eldo/init@2.4.4...@eldo/init@2.4.5) (2020-02-05)
 
 **Note:** Version bump only for package @eldo/init

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](http://134.209.96.47:4873/-/web/detail/@eldo/button/compare/@eldo/button@2.5.0...@eldo/button@2.6.0) (2020-02-06)
+
+
+### Bug Fixes
+
+* fix css duplicates ([ed47bce](http://134.209.96.47:4873/-/web/detail/@eldo/button/commits/ed47bced85efd5912157ff64ea842b2c1165b37b))
+
+
+### Features
+
+* moved dependencies around ([a0b4c78](http://134.209.96.47:4873/-/web/detail/@eldo/button/commits/a0b4c78559c3d13295481fcdfbbf42ce8a6bef85))
+
+
+
+
+
 # [2.5.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@2.4.2...@eldo/button@2.5.0) (2020-02-05)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@eldo/styles",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Eldo shareable css/postCSS components",
   "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/styles",
   "author": "Jack Tan <jacktan165@gmail.com>",
@@ -15,7 +15,7 @@
     "build": "webpack --config ./webpack.config.js"
   },
   "devDependencies": {
-    "@eldo/eslint-config-lint-tool": "^2.3.0",
-    "@eldo/webpack": "^2.3.0"
+    "@eldo/eslint-config-lint-tool": "^2.4.0",
+    "@eldo/webpack": "^2.4.0"
   }
 }

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](http://134.209.96.47:4873/-/web/detail/@eldo/jest-config/compare/@eldo/jest-config@2.0.13...@eldo/jest-config@2.1.0) (2020-02-06)
+
+
+### Features
+
+* moved dependencies around ([a0b4c78](http://134.209.96.47:4873/-/web/detail/@eldo/jest-config/commits/a0b4c78559c3d13295481fcdfbbf42ce8a6bef85))
+
+
+
+
+
 ## [2.0.13](https://github.com/Lilmortal/eldo/compare/@eldo/jest-config@2.0.12...@eldo/jest-config@2.0.13) (2020-02-05)
 
 **Note:** Version bump only for package @eldo/jest-config

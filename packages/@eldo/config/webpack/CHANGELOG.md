@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](http://134.209.96.47:4873/-/web/detail/@eldo/webpack/compare/@eldo/webpack@2.3.0...@eldo/webpack@2.4.0) (2020-02-06)
+
+
+### Features
+
+* moved dependencies around ([a0b4c78](http://134.209.96.47:4873/-/web/detail/@eldo/webpack/commits/a0b4c78559c3d13295481fcdfbbf42ce8a6bef85))
+
+
+
+
+
 # [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/webpack@2.2.2...@eldo/webpack@2.3.0) (2020-02-05)
 
 

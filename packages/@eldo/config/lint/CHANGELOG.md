@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](http://134.209.96.47:4873/-/web/detail/@eldo/eslint-config-lint-tool/compare/@eldo/eslint-config-lint-tool@2.3.0...@eldo/eslint-config-lint-tool@2.4.0) (2020-02-06)
+
+
+### Bug Fixes
+
+* removed /recommended from stylelint-a11y ([9dc5084](http://134.209.96.47:4873/-/web/detail/@eldo/eslint-config-lint-tool/commits/9dc508458932df5465d1ec783a60d97ab908ddf6))
+
+
+### Features
+
+* added stylelint-a11y and clean up code ([bad4e43](http://134.209.96.47:4873/-/web/detail/@eldo/eslint-config-lint-tool/commits/bad4e439c5914339dd1539970fde0d7816b55ae5))
+* moved dependencies around ([a0b4c78](http://134.209.96.47:4873/-/web/detail/@eldo/eslint-config-lint-tool/commits/a0b4c78559c3d13295481fcdfbbf42ce8a6bef85))
+
+
+
+
+
 # [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/eslint-config-lint-tool@2.2.1...@eldo/eslint-config-lint-tool@2.3.0) (2020-02-05)
 
 
