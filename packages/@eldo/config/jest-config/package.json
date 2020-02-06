@@ -1,8 +1,14 @@
 {
   "name": "@eldo/jest-config",
   "version": "2.0.13",
-  "main": "index.js",
+  "description": "Eldo shareable jest config",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/jest-config",
+  "author": "Jack Tan <jacktan165@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "main": "index.js",
   "peerDependencies": {
     "jest": ">=25.1.0 <26"
   },

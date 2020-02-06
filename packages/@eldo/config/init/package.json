@@ -1,11 +1,17 @@
 {
   "name": "@eldo/init",
   "version": "2.4.5",
+  "description": "A helpful CLI for creating a new Eldo component, app, styles or utils folder.",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/init",
+  "author": "Jack Tan <jacktan165@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "main": "index.js",
   "bin": {
     "elit": "./index.js"
   },
-  "license": "MIT",
   "devDependencies": {
     "chalk": "^3.0.0",
     "clear": "^0.1.0",

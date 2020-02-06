@@ -2,7 +2,13 @@
   "name": "@eldo/storybook",
   "version": "2.3.0",
   "main": "index.js",
+  "description": "Eldo storybook",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/storybook",
+  "author": "Jack Tan <jacktan165@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "start:sb": "start-storybook -p 9000",
     "build:sb": "build-storybook"

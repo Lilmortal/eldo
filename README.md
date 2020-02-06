@@ -14,6 +14,7 @@ this is to bypass CI linting commit message
 
 TODO:
 Update package.json files[], if you see node_modules everything is included.
+Test node 8 and update package.json
 
 ```
   {

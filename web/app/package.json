@@ -1,13 +1,16 @@
 {
   "name": "@eldo/app",
   "version": "2.2.5",
+  "description": "Main Eldo application",
   "main": "./webpack.dev.js",
   "repository": "https://github.com/Lilmortal/eldo.git",
   "author": "Jack Tan <jacktan165@gmail.com>",
   "keywords": [
     "eldo"
   ],
-  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "start": "webpack-dev-server  --open --config ./webpack.dev.js",
     "test": "jest --watch",

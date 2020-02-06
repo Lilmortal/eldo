@@ -1,7 +1,13 @@
 {
   "name": "@eldo/styles",
   "version": "1.4.0",
+  "description": "Eldo shareable css/postCSS components",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/styles",
+  "author": "Jack Tan <jacktan165@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "style": "index.css",
   "scripts": {
     "lint:css": "stylelint **/*.css --fix --allow-empty-input",

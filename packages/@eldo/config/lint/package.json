@@ -2,7 +2,13 @@
   "name": "@eldo/eslint-config-lint-tool",
   "version": "2.3.0",
   "main": "index.js",
+  "description": "Eldo shareable eslint, postcss, and stylelint config",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/eslint-config-lint-tool",
+  "author": "Jack Tan <jacktan165@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "files": [
     "index.js",
     "prettier.config.js",

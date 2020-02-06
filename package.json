@@ -1,9 +1,13 @@
 {
   "name": "eldo",
   "version": "1.0.0",
+  "description": "A monorepo for the Eldo project",
   "repository": "https://github.com/Lilmortal/eldo.git",
   "author": "Jack Tan <jacktan165@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "private": true,
   "scripts": {
     "start": "yarn --cwd ./web/app start",

@@ -2,7 +2,13 @@
   "name": "@eldo/webpack",
   "version": "2.3.0",
   "main": "index.js",
+  "description": "Eldo shareable webpack config",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/webpack",
+  "author": "Jack Tan <jacktan165@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "peerDependencies": {
     "@babel/cli": ">=7.8.4 <",
     "@babel/plugin-syntax-dynamic-import": ">=7.8.3 <8",
