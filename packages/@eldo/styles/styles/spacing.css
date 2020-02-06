@@ -14,8 +14,17 @@
   --space-xxxxl: calc(13.75 * var(--space-unit));
 }
 
-@define-mixin md $width: var(--space-md) {
-  @media (width < $width) {
+/* 
+If you want media queries variables support, we are in bad shape.
+It looks like it is not supported in CSS yet, and the closest
+plugin to fix that which is `postcss-media-variables` have a few
+issues that prevents us from using it.
+This is one of the limits of PostCSS as of 6/2/2020 where SASS
+shines over PostCSS. 
+*/
+
+@define-mixin md {
+  @media (width < 959px) {
     @mixin-content;
   }
 }

@@ -20,7 +20,7 @@ module.exports = ({ dir }) => {
           use: [
             {
               loader: MiniCssExtractPlugin.loader,
-              options: { sourceMap: true },
+              options: { sourceMap: true, hmr: true },
             },
             {
               loader: "css-loader",
