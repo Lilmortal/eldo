@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/Lilmortal/eldo/compare/@eldo/button@2.4.2...@eldo/button@2.5.0) (2020-02-05)
+
+
+### Features
+
+* removed @eldo/tools ([dd6ab21](https://github.com/Lilmortal/eldo/commit/dd6ab21f6406d473d173f5c1a2341a35193c4feb))
+* test @testing-library/react works on Button ([ca6fcd0](https://github.com/Lilmortal/eldo/commit/ca6fcd0f52a05823a1646933c277eb37ec015d56))
+
+
+
+
+
 ## [2.4.2](https://github.com/Lilmortal/eldo/compare/@eldo/button@2.4.1...@eldo/button@2.4.2) (2020-02-05)
 
 **Note:** Version bump only for package @eldo/button
