@@ -1,0 +1,7 @@
+@import '@eldo/styles';
+
+.eldo-CardDeck {
+  width: 90px;
+  height: 100px;
+  background-color: red;
+}

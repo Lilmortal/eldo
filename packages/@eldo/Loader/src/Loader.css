@@ -1,0 +1,5 @@
+@import '@eldo/styles';
+
+.eldo-Loader {
+  background-color: red;
+}

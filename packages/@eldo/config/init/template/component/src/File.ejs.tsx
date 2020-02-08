@@ -7,13 +7,15 @@ import './<%= projectName %>.css';
 const bem = createBem('eldo-<%= projectName %>');
 
 interface <%= projectName %>Props {
+  className?: string;
   children: React.ReactNode;
 }
 
 const <%= projectName %>: React.FC<<%= projectName %>Props> = ({
+  className,
   children,
 }: <%= projectName %>Props) => (
-  <div>{children}</div>
+  <div className={combinedClassNames(bem(), className)}>{children}</div>
 );
 
 export default <%= projectName %>;
