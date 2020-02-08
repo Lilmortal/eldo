@@ -1,6 +1,12 @@
 {
   "name": "@eldo/<%= projectName %>",
   "version": "1.0.0",
+  "description": "",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/<%= projectName %>",
+  "author": "",
+  "engines": {
+    "node": ">=8"
+  },
   "license": "MIT",
   "style": "index.css",
   "scripts": {

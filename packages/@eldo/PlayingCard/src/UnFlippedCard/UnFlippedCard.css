@@ -1,0 +1,7 @@
+@import '@eldo/styles';
+
+.eldo-UnFlippedCard {
+  background-color: green;
+  width: 90px;
+  height: 100px;
+}

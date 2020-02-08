@@ -1,9 +1,9 @@
 {
-  "name": "@eldo/<%= projectName %>",
+  "name": "@eldo/bem",
   "version": "1.0.0",
-  "description": "",
-  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/<%= projectName %>",
-  "author": "",
+  "description": "A list of helpful utility functions to create BEM styles.",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/bem",
+  "author": "Jack Tan <jacktan165@gmail.com>",
   "engines": {
     "node": ">=8"
   },

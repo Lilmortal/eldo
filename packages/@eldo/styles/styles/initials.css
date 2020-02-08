@@ -1,0 +1,18 @@
+@import './variables.css';
+@import './mixins.css';
+
+body {
+  background-color: var(--body-background-color);
+
+  @mixin md {
+    font-size: var(--text-md);
+  }
+
+  @mixin lg {
+    font-size: var(--text-lg);
+  }
+
+  @mixin xl {
+    font-size: var(--text-xl);
+  }
+}

@@ -36,3 +36,7 @@ shines over PostCSS.
     @mixin-content;
   }
 }
+
+@define-mixin padding $top, $right, $bottom, $left {
+  padding: $top, $right, $bottom, $left;
+}

@@ -5,7 +5,7 @@ module.exports = {
     'stylelint-a11y/recommended',
   ],
   rules: {
-    'declaration-block-trailing-semicolon': 'always',
+    // 'declaration-block-trailing-semicolon': 'always',
     'selector-nested-pattern': '^&',
     'a11y/font-size-is-readable': true,
     'at-rule-no-unknown': [

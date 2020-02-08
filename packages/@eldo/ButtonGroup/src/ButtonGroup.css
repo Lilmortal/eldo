@@ -1,0 +1,9 @@
+@import '@eldo/styles';
+
+.eldo-ButtonGroup {
+  display: flex;
+  flex-direction: column;
+  &--isHorizontal {
+    flex-direction: row;
+  }
+}

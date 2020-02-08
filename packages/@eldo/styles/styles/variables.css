@@ -3,8 +3,11 @@
 :root,
 [data-theme='default'] {
   --color-primary: red;
-  --body-background: white;
+  --body-background-color: var(--darkBlue);
   --text-primary: var(--lightGray);
+  --button-border-color: var(--lightGreen);
+  --button-active-color: var(--darkGreen);
+  --button-text-color: var(--lightGreen);
 }
 
 [data-theme='dark'] {

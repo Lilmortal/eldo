@@ -1,0 +1,8 @@
+@import '@eldo/styles';
+
+/* TODO: extend PlayingCard width/height */
+.eldo-FlippedCard {
+  background-color: red;
+  width: 90px;
+  height: 100px;
+}

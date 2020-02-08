@@ -1,8 +1,14 @@
 {
   "name": "@eldo/<%= projectName %>",
   "version": "1.0.0",
+  "description": "",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/<%= projectName %>",
+  "author": "",
   "main": "./webpack.dev.js",
   "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
   "scripts": {
     "start": "webpack-dev-server  --open --config ./webpack.dev.js",
     "test": "jest --watch",

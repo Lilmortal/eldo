@@ -1,13 +1,14 @@
 {
-  "name": "@eldo/button",
-  "version": "2.5.0",
-  "description": "Eldo button component",
-  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/button",
-  "author": "Jack Tan <jacktan165@gmail.com>",
-  "license": "MIT",
+  "name": "@eldo/buttongroup",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/buttongroup",
+  "author": "",
   "engines": {
     "node": ">=8"
   },
+  "license": "MIT",
+  "main": "index.ts",
   "scripts": {
     "test": "jest --watch",
     "test:ci": "jest",
@@ -18,8 +19,7 @@
   },
   "peerDependencies": {
     "react": ">=16.12.0 <17",
-    "react-dom": ">=16.12.0 <17",
-    "@eldo/styles": ">=1.4.0 <2"
+    "react-dom": ">=16.12.0 <17"
   },
   "devDependencies": {
     "@eldo/eslint-config-lint-tool": "^2.3.0",

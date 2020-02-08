@@ -1,16 +1,23 @@
 @import '@eldo/styles';
 
-.button {
-  &__test {
-    color: var(--color-primary);
-    font-size: var(--text-md);
+.eldo-Button {
+  color: var(--button-text-color);
+  border: 2px groove var(--button-border-color);
+  background-color: inherit;
+  font: inherit;
+  /* @mixin padding(1, 2, 3, 4); */
+  padding: var(--space-xs) var(--space-md);
+  border-radius: 5px;
+  /* transition: 20ms background-color; */
+  margin-bottom: var(--space-md);
 
-    @mixin md {
-      background-color: green;
-    }
+  &:focus,
+  &:hover {
+    border-style: double;
+    background-color: var(--button-active-color);
+  }
 
-    @mixin lg {
-      background-color: blue;
-    }
+  &:active {
+    background-color: white;
   }
 }
