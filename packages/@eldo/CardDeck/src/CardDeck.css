@@ -3,5 +3,7 @@
 .eldo-CardDeck {
   width: 90px;
   height: 100px;
-  background-color: red;
+  background-color: var(--content-secondary);
+  border: 2px groove var(--content-border-primary);
+  box-shadow: 4px 4px 5px 2px gray;
 }
