@@ -2,7 +2,7 @@ import React from 'react';
 
 import './<%= projectName %>.css';
 
-const <%= projectName %>: React.FunctionComponent<{}> = ({ children }) => (
+const <%= projectName %>: React.FC<{}> = ({ children }) => (
   <div>{children}</div>
 );
 

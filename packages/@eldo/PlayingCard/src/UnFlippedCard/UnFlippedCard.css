@@ -1,7 +1,8 @@
 @import '@eldo/styles';
 
 .eldo-UnFlippedCard {
-  background-color: green;
+  border: 2px solid var(--content-border-primary);
+  background-color: var(--content-primary);
   width: 90px;
   height: 100px;
 }

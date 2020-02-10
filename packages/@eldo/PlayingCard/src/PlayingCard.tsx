@@ -10,16 +10,28 @@ const bem = createBem('eldo-PlayingCard');
 
 interface PlayingCardProps {
   className?: string;
-  isFlipped: boolean;
-  flippedCard?: string;
+  isFlipped?: boolean;
+  isSelected?: boolean;
+  value: React.ReactNode;
 }
 
-const PlayingCard: React.FunctionComponent<PlayingCardProps> = ({
+interface CardProps {
+  value: React.ReactNode;
+}
+
+const PlayingCard: React.FC<PlayingCardProps> = ({
   className,
-  isFlipped,
+  isFlipped = false,
+  isSelected = false,
+  value,
 }: PlayingCardProps) => (
-  <div className={combinedClassNames(bem(), className)}>
-    {isFlipped ? <FlippedCard /> : <UnFlippedCard />}
+  <div
+    className={combinedClassNames(
+      bem('', isSelected ? 'isSelected' : ''),
+      className
+    )}
+  >
+    {isFlipped ? <FlippedCard>{value}</FlippedCard> : <UnFlippedCard />}
   </div>
 );
 

@@ -3,7 +3,7 @@ import React from 'react';
 import Money from './Money';
 
 test('expect Money to have children', () => {
-  const component = <Money>Test</Money>;
+  const component = <Money cost="120" />;
 
-  expect(component.props.children).toEqual('Test');
+  expect(component.props.cost).toEqual('1200');
 });

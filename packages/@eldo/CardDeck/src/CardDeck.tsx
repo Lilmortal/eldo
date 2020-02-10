@@ -8,7 +8,7 @@ const bem = createBem('eldo-CardDeck');
 
 interface CardDeckProps {
   className?: string;
-  onClick(): void;
+  onClick?(): void;
 }
 
 const CardDeck: React.FC<CardDeckProps> = ({

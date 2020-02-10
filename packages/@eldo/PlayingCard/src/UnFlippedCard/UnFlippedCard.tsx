@@ -8,14 +8,12 @@ const bem = createBem('eldo-UnFlippedCard');
 
 interface UnFlippedCardProps {
   className?: string;
-  children?: React.ReactNode;
 }
 
 const UnFlippedCard: React.FC<UnFlippedCardProps> = ({
   className,
-  children,
 }: UnFlippedCardProps) => (
-  <div className={combinedClassNames(bem(), className)}>{children}</div>
+  <div className={combinedClassNames(bem(), className)} />
 );
 
 export default UnFlippedCard;

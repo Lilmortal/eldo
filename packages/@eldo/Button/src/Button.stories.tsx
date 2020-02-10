@@ -3,6 +3,6 @@ import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
 
-storiesOf('button', module).add('default button', () => (
+storiesOf('Button', module).add('default button', () => (
   <Button value="Value">test</Button>
 ));

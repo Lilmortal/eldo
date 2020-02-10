@@ -1,5 +1,5 @@
 @import '@eldo/styles';
 
 .eldo-Typewriter {
-  background-color: red;
+  color: var(--text-secondary);
 }

@@ -1,8 +1,8 @@
 @import '@eldo/styles';
 
 .eldo-Button {
-  color: var(--button-text-color);
-  border: 2px groove var(--button-border-color);
+  color: var(--text-primary);
+  border: 2px groove var(--button-border-primary);
   background-color: inherit;
   font: inherit;
   /* @mixin padding(1, 2, 3, 4); */
@@ -14,7 +14,7 @@
   &:focus,
   &:hover {
     border-style: double;
-    background-color: var(--button-active-color);
+    background-color: var(--button-active-primary);
   }
 
   &:active {

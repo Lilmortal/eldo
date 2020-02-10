@@ -8,14 +8,16 @@ const bem = createBem('eldo-FlippedCard');
 
 interface FlippedCardProps {
   className?: string;
-  children?: React.ReactNode;
+  children: React.ReactNode;
 }
 
-const FlippedCard: React.FunctionComponent<FlippedCardProps> = ({
+const FlippedCard: React.FC<FlippedCardProps> = ({
   className,
   children,
 }: FlippedCardProps) => (
-  <div className={combinedClassNames(bem(), className)}>{children}</div>
+  <div className={combinedClassNames(bem(), className)}>
+    <div className={bem('card')}>{children}</div>
+  </div>
 );
 
 export default FlippedCard;

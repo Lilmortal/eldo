@@ -2,7 +2,7 @@
 @import './mixins.css';
 
 body {
-  background-color: var(--body-background-color);
+  background-color: var(--body-primary);
 
   @mixin md {
     font-size: var(--text-md);

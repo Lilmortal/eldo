@@ -8,11 +8,11 @@ const bem = createBem('eldo-Money');
 
 interface MoneyProps {
   className?: string;
-  children: React.ReactNode;
+  cost: string;
 }
 
-const Money: React.FC<MoneyProps> = ({ className, children }: MoneyProps) => (
-  <div className={combinedClassNames(bem(), className)}>{children}</div>
+const Money: React.FC<MoneyProps> = ({ className, cost }: MoneyProps) => (
+  <div className={combinedClassNames(bem(), className)}>{cost}</div>
 );
 
 export default Money;

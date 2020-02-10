@@ -8,7 +8,7 @@ interface ButtonProps {
   children: React.ReactNode;
   value: string;
   className?: string;
-  onClick(): void;
+  onClick?(): void;
   style?: string;
 }
 

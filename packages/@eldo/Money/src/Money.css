@@ -1,5 +1,5 @@
 @import '@eldo/styles';
 
 .eldo-Money {
-  background-color: red;
+  color: var(--text-primary);
 }

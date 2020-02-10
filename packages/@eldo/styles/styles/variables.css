@@ -2,14 +2,17 @@
 
 :root,
 [data-theme='default'] {
-  --color-primary: red;
-  --body-background-color: var(--darkBlue);
-  --text-primary: var(--lightGray);
-  --button-border-color: var(--lightGreen);
-  --button-active-color: var(--darkGreen);
-  --button-text-color: var(--lightGreen);
+  --body-primary: var(--darkBlue);
+  --button-border-primary: var(--lightGreen);
+  --button-active-primary: var(--darkGreen);
+  --content-border-primary: var(--lightGreen);
+  --content-primary: var(--darkGreen);
+  --content-secondary: var(--normalGreen);
+  --text-primary: var(--lightGreen);
+  --text-secondary: var(--lightGray);
+  --text-strong-primary: var(--lightWhite);
 }
 
 [data-theme='dark'] {
-  --color-primary: blue;
+  --body-primary: red;
 }

@@ -2,4 +2,8 @@
 
 .eldo-PlayingCard {
   display: flex;
+
+  &__isSelected {
+    color: red;
+  }
 }
