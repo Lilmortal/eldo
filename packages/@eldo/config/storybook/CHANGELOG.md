@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](http://134.209.96.47:4873/-/web/detail/@eldo/storybook/compare/@eldo/storybook@2.3.0...@eldo/storybook@2.4.0) (2020-02-06)
+
+
+### Features
+
+* added breakpoints mixins ([2ad5f69](http://134.209.96.47:4873/-/web/detail/@eldo/storybook/commits/2ad5f69326e6585611f44f04f026a2fa0f326b22))
+* added stylelint-a11y and clean up code ([bad4e43](http://134.209.96.47:4873/-/web/detail/@eldo/storybook/commits/bad4e439c5914339dd1539970fde0d7816b55ae5))
+* moved dependencies around ([a0b4c78](http://134.209.96.47:4873/-/web/detail/@eldo/storybook/commits/a0b4c78559c3d13295481fcdfbbf42ce8a6bef85))
+
+
+
+
+
 # [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/storybook@2.2.2...@eldo/storybook@2.3.0) (2020-02-05)
 
 

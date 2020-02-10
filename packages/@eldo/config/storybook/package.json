@@ -1,6 +1,6 @@
 {
   "name": "@eldo/storybook",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "main": "index.js",
   "description": "Eldo storybook",
   "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/storybook",
@@ -21,7 +21,7 @@
     "@storybook/addons": ">=5.3.10 <6"
   },
   "devDependencies": {
-    "@eldo/eslint-config-lint-tool": "^2.3.0",
+    "@eldo/eslint-config-lint-tool": "^2.4.0",
     "@storybook/addon-actions": "^5.3.10",
     "@storybook/addon-knobs": "^5.3.10",
     "@storybook/addon-links": "^5.3.10",

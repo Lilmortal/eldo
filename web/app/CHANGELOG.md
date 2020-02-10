@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@2.2.5...@eldo/app@2.3.0) (2020-02-06)
+
+
+### Bug Fixes
+
+* fix css duplicates ([ed47bce](https://github.com/Lilmortal/eldo/commit/ed47bced85efd5912157ff64ea842b2c1165b37b))
+
+
+### Features
+
+* added breakpoints mixins ([2ad5f69](https://github.com/Lilmortal/eldo/commit/2ad5f69326e6585611f44f04f026a2fa0f326b22))
+* added stylelint-a11y and clean up code ([bad4e43](https://github.com/Lilmortal/eldo/commit/bad4e439c5914339dd1539970fde0d7816b55ae5))
+* moved dependencies around ([a0b4c78](https://github.com/Lilmortal/eldo/commit/a0b4c78559c3d13295481fcdfbbf42ce8a6bef85))
+
+
+
+
+
 ## [2.2.5](https://github.com/Lilmortal/eldo/compare/@eldo/app@2.2.4...@eldo/app@2.2.5) (2020-02-05)
 
 **Note:** Version bump only for package @eldo/app
