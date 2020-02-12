@@ -1,6 +1,6 @@
 {
   "name": "@eldo/bem",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A list of helpful utility functions to create BEM styles.",
   "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/bem",
   "author": "Jack Tan <jacktan165@gmail.com>",

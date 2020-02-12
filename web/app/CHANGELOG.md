@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@2.3.0...@eldo/app@2.4.0) (2020-02-12)
+
+
+### Features
+
+* added playing card ([7fdfb1f](https://github.com/Lilmortal/eldo/commit/7fdfb1fba784a7284bd8f747526dba0ab7e25d62))
+
+
+
+
+
 # [2.3.0](https://github.com/Lilmortal/eldo/compare/@eldo/app@2.2.5...@eldo/app@2.3.0) (2020-02-06)
 
 

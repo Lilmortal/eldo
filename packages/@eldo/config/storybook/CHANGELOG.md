@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.1](http://134.209.96.47:4873/-/web/detail/@eldo/storybook/compare/@eldo/storybook@2.4.0...@eldo/storybook@2.4.1) (2020-02-12)
+
+**Note:** Version bump only for package @eldo/storybook
+
+
+
+
+
 # [2.4.0](http://134.209.96.47:4873/-/web/detail/@eldo/storybook/compare/@eldo/storybook@2.3.0...@eldo/storybook@2.4.0) (2020-02-06)
 
 

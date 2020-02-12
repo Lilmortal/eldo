@@ -1,6 +1,6 @@
 {
   "name": "@eldo/webpack",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "main": "index.js",
   "description": "Eldo shareable webpack config",
   "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/webpack",

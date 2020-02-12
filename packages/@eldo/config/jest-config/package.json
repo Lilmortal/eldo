@@ -1,6 +1,6 @@
 {
   "name": "@eldo/jest-config",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Eldo shareable jest config",
   "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/jest-config",
   "author": "Jack Tan <jacktan165@gmail.com>",
