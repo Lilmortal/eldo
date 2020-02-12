@@ -1,0 +1,29 @@
+@mixin xs {
+  @media screen and (max-width: $breakpointXsScreen) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media screen and (max-width: $breakpointSmScreen) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (max-width: $breakpointMdScreen) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (max-width: $breakpointLgScreen) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media screen and (max-width: $breakpointXlScreen) {
+    @content;
+  }
+}

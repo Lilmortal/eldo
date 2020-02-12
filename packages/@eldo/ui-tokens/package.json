@@ -1,0 +1,21 @@
+{
+  "name": "@eldo/ui-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "http://134.209.96.47:4873/-/web/detail/@eldo/ui-tokens",
+  "author": "",
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "style": "index.css",
+  "scripts": {
+    "lint:css": "stylelint **/*.css --fix --allow-empty-input",
+    "lint": "yarn lint'",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "@eldo/eslint-config-lint-tool": "^2.3.0",
+    "@eldo/webpack": "^2.3.0"
+  }
+}

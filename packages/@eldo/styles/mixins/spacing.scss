@@ -1,0 +1,51 @@
+@import 'ui-tokens';
+
+$spaces: (
+  0: 0,
+  auto: auto,
+  xs: $breakpointXsSpacing,
+  md: $breakpointMdSpacing,
+  lg: $breakpointLgSpacing,
+  xl: $breakpointXlSpacing,
+);
+
+@function getValue($var) {
+  // handle negative values
+  @if (type-of($var) == 'string' and str-slice($var, 1, 1) == '-') {
+    $positiveVar: map-get($spaces, str-slice($var, 2));
+    @if (type-of($positiveVar) == 'number') {
+      @return $positiveVar * -1;
+    } @else {
+      @return null;
+    }
+  } @else {
+    @return map-get($spaces, $var);
+  }
+}
+
+@function validateVar($vars) {
+  @each $var in $vars {
+    @if ($var != null and type-of(getValue($var)) == null) {
+      @error 'Invalid variable name #{$var}';
+    }
+  }
+}
+
+@function spreadVar($property, $top, $right, $bottom, $left) {
+  #{$property}: getVar($top) getVar($right) getVar($bottom) getVar($left);
+}
+
+@mixin padding($top, $right: null, $bottom: null, $left: null) {
+  @include validateVar($top, $right, $bottom, $left);
+  @include spreadVar(padding, $top, $right, $bottom, $left);
+}
+
+@mixin margin($top, $right: null, $bottom: null, $left: null) {
+  @include validateVar($top, $right, $bottom, $left);
+  @include spreadVar(margin, $top, $right, $bottom, $left);
+}
+
+@mixin border($top, $right: null, $bottom: null, $left: null) {
+  @include validateVar($top, $right, $bottom, $left);
+  @include spreadVar(border, $top, $right, $bottom, $left);
+}
