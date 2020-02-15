@@ -1,0 +1,6 @@
+@use '@eldo/styles';
+@use '@eldo/styles/theme';
+
+.text {
+  color: var(--text-primary);
+}

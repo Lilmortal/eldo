@@ -1,0 +1,66 @@
+@use '@eldo/ui-tokens' as tokens;
+@use 'mixins/responsive';
+
+:root,
+[data-theme='default'] {
+  --body-primary: #{tokens.$darkBlue};
+  --button-border-primary: #{tokens.$lightGreen};
+  --button-active-primary: #{tokens.$darkGreen};
+  --content-border-primary: #{tokens.$lightGreen};
+  --content-primary: #{tokens.$darkGreen};
+  --content-secondary: #{tokens.$normalGreen};
+  --text-primary: #{tokens.$lightGreen};
+  --text-secondary: #{tokens.$lightGray};
+  --text-strong-primary: #{tokens.$lightWhite};
+}
+
+[data-theme='dark'] {
+  --body-primary: red;
+}
+
+body {
+  background-color: var(--body-primary);
+  font-size: #{tokens.$text-base-size};
+  font-family: #{tokens.$text-font};
+
+  @include responsive.sm {
+    --text-base-size: 1.05em;
+    --text-scale-ratio: 1.25;
+  }
+
+  @include responsive.md {
+    font-size: tokens.$text-md;
+    --text-base-size: 1.1em;
+    --text-scale-ratio: 1.25;
+  }
+
+  @include responsive.lg {
+    font-size: tokens.$text-lg;
+    --text-base-size: 1.25em;
+    --text-scale-ratio: 1.25;
+  }
+
+  @include responsive.xl {
+    font-size: tokens.$text-xl;
+  }
+}
+
+h1 {
+  font-size: #{tokens.$text-xxl};
+}
+
+h2 {
+  font-size: #{tokens.$text-xl};
+}
+
+h3 {
+  font-size: #{tokens.$text-lg};
+}
+
+h4 {
+  font-size: #{tokens.$text-md};
+}
+
+small {
+  font-size: #{tokens.$text-sm};
+}

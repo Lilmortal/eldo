@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../bem';
 
-import './ButtonGroup.css';
+import './ButtonGroup.scss';
 
 const bem = createBem('eldo-ButtonGroup');
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../bem';
 
-import './Typewriter.css';
+import './Typewriter.scss';
 
 const bem = createBem('eldo-Typewriter');
 

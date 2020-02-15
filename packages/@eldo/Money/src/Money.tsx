@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../bem';
 
-import './Money.css';
+import './Money.scss';
 
 const bem = createBem('eldo-Money');
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../bem';
 
-import './CardDeck.css';
+import './CardDeck.scss';
 
 const bem = createBem('eldo-CardDeck');
 

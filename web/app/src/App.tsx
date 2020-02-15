@@ -2,12 +2,13 @@ import React from 'react';
 
 import Button from '@eldo/button';
 
-import './index.css';
+import './index.scss';
 
 const App: React.FC<{}> = () => (
   <div>
-    <Button text="test">Test</Button>
+    <Button value="test">Test</Button>
     <div className="text">Test test test</div>
+    <h1>test</h1>
   </div>
 );
 

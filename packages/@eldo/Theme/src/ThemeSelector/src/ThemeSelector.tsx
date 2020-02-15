@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../../../bem';
 
-import './ThemeSelector.css';
+import './ThemeSelector.scss';
 
 const bem = createBem('eldo-ThemeSelector');
 

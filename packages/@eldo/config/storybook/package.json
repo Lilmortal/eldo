@@ -15,6 +15,7 @@
   },
   "peerDependencies": {
     "@eldo/eslint-config-lint-tool": ">=2.3.0 <3",
+    "@eldo/styles": ">=1.6.0 <2",
     "@storybook/addon-actions": ">=5.3.10 <6",
     "@storybook/addon-knobs": ">=5.3.10 <6",
     "@storybook/addon-links": ">=5.3.10 <6",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@eldo/eslint-config-lint-tool": "^2.5.0",
+    "@eldo/styles": "^1.6.0",
     "@storybook/addon-actions": "^5.3.10",
     "@storybook/addon-knobs": "^5.3.10",
     "@storybook/addon-links": "^5.3.10",
@@ -34,6 +36,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^3.4.2",
     "git-root": "^1.0.0",
-    "postcss-loader": "^3.0.0"
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.1.3"
   }
 }

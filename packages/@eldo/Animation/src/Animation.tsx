@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../bem';
 
-import './Animation.css';
+import './Animation.scss';
 
 const bem = createBem('eldo-Animation');
 

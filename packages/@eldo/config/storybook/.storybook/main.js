@@ -19,15 +19,27 @@ module.exports = {
     config.resolve.extensions.push(".ts", ".tsx");
 
     config.module.rules.push({
-      test: /\.css$/,
+      test: /\.s[a|c]ss$/,
       use: [
+        "style-loader",
         {
-          loader: require.resolve("postcss-loader"),
+          loader: "css-loader",
+          options: {
+            sourceMap: true,
+          },
+        },
+        {
+          loader: "postcss-loader",
           options: {
             config: {
               path: `./postcss.config.js`,
             },
+            sourceMap: true,
           },
+        },
+        {
+          loader: "sass-loader",
+          options: { implementation: require("sass"), sourceMap: true },
         },
       ],
     });

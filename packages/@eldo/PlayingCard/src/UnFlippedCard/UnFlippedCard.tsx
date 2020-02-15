@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../../bem';
 
-import './UnFlippedCard.css';
+import './UnFlippedCard.scss';
 
 const bem = createBem('eldo-UnFlippedCard');
 

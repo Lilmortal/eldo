@@ -4,7 +4,7 @@ import { createBem, combinedClassNames } from '../../bem';
 import FlippedCard from './FlippedCard';
 import UnFlippedCard from './UnFlippedCard';
 
-import './PlayingCard.css';
+import './PlayingCard.scss';
 
 const bem = createBem('eldo-PlayingCard');
 

@@ -8,7 +8,11 @@
   "engines": {
     "node": ">=8"
   },
-  "style": "index.css",
+  "style": "index.scss",
+  "files": [
+    "index.scss",
+    "theme.scss"
+  ],
   "scripts": {
     "lint:css": "stylelint **/*.css --fix --allow-empty-input",
     "lint": "yarn lint:css",
@@ -17,5 +21,8 @@
   "devDependencies": {
     "@eldo/eslint-config-lint-tool": "^2.5.0",
     "@eldo/webpack": "^2.5.0"
+  },
+  "dependencies": {
+    "@eldo/ui-tokens": "^1.1.0"
   }
 }

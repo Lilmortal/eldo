@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../bem';
 
-import './Loader.css';
+import './Loader.scss';
 
 const bem = createBem('eldo-Loader');
 

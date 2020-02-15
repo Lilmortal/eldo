@@ -1,4 +1,4 @@
-@import './css/breakpoints';
-@import './css/color-palette';
-@import './css/spacing';
-@import './css/typography';
+@forward 'css/breakpoints';
+@forward 'css/color-palette';
+@forward 'css/typography';
+@forward 'css/spacing';

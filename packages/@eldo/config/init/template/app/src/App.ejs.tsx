@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './<%= projectName %>.css';
+import './<%= projectName %>.scss';
 
 const <%= projectName %>: React.FC<{}> = ({ children }) => (
   <div>{children}</div>

@@ -1,11 +1,11 @@
-const webpack = require('webpack');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const webpack = require("webpack");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = ({ dir }) => {
   return {
-    mode: 'development',
-    devtool: 'inline-source-map',
+    mode: "development",
+    devtool: "inline-source-map",
     devServer: {
       contentBase: `${dir}/dist`,
       hot: true,
@@ -16,25 +16,29 @@ module.exports = ({ dir }) => {
     module: {
       rules: [
         {
-          test: /\.s[ac]css$/,
+          test: /\.s[a|c]ss$/,
           use: [
             {
               loader: MiniCssExtractPlugin.loader,
               options: { sourceMap: true, hmr: true },
             },
             {
-              loader: 'css-loader',
+              loader: "css-loader",
               options: { sourceMap: true },
             },
             {
-              loader: 'postcss-loader',
+              loader: "postcss-loader",
               options: {
                 config: {
                   path: `${dir}/postcss.config.js`,
                 },
+                sourceMap: true,
               },
             },
-            'sass-loader',
+            {
+              loader: "sass-loader",
+              options: { implementation: require("sass"), sourceMap: true },
+            },
           ],
         },
       ],
@@ -44,7 +48,7 @@ module.exports = ({ dir }) => {
     // The differences between [hash] and [chunkhash] is [hash] is calculated for a build, whereas
     // [chunkhash] is calculated for each chunks.
     output: {
-      filename: '[name].[hash].bundle.js',
+      filename: "[name].[hash].bundle.js",
       path: `${dir}/dist`,
     },
     plugins: [
@@ -62,8 +66,8 @@ module.exports = ({ dir }) => {
       }),
       // Extract css files into a seperate bundle
       new MiniCssExtractPlugin({
-        filename: '[name].css',
-        chunkFilename: '[id].css',
+        filename: "[name].css",
+        chunkFilename: "[id].css",
       }),
       // Setup stylelint
       // new StyleLintPlugin(),

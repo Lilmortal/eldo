@@ -1,15 +1,15 @@
-@import 'ui-tokens';
+@use '@eldo/ui-tokens' as tokens;
 
 $spaces: (
   0: 0,
   auto: auto,
-  xs: $breakpointXsSpacing,
-  md: $breakpointMdSpacing,
-  lg: $breakpointLgSpacing,
-  xl: $breakpointXlSpacing,
+  xs: tokens.$space-xs,
+  md: tokens.$space-md,
+  lg: tokens.$space-lg,
+  xl: tokens.$space-xl,
 );
 
-@function getValue($var) {
+@function getVar($var) {
   // handle negative values
   @if (type-of($var) == 'string' and str-slice($var, 1, 1) == '-') {
     $positiveVar: map-get($spaces, str-slice($var, 2));
@@ -23,15 +23,15 @@ $spaces: (
   }
 }
 
-@function validateVar($vars) {
+@mixin validateVar($vars...) {
   @each $var in $vars {
-    @if ($var != null and type-of(getValue($var)) == null) {
+    @if ($var != null and type-of(getVar($var)) == null) {
       @error 'Invalid variable name #{$var}';
     }
   }
 }
 
-@function spreadVar($property, $top, $right, $bottom, $left) {
+@mixin spreadVar($property, $top, $right, $bottom, $left) {
   #{$property}: getVar($top) getVar($right) getVar($bottom) getVar($left);
 }
 

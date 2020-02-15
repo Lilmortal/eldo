@@ -2,7 +2,7 @@ import React from 'react';
 
 import { createBem, combinedClassNames } from '../../bem';
 
-import './Button.css';
+import './Button.scss';
 
 interface ButtonProps {
   children: React.ReactNode;

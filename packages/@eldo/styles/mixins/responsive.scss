@@ -1,29 +1,31 @@
+@use '@eldo/ui-tokens' as tokens;
+
 @mixin xs {
-  @media screen and (max-width: $breakpointXsScreen) {
+  @media screen and (min-width: tokens.$breakpointXs) {
     @content;
   }
 }
 
 @mixin sm {
-  @media screen and (max-width: $breakpointSmScreen) {
+  @media screen and (min-width: tokens.$breakpointSm) {
     @content;
   }
 }
 
 @mixin md {
-  @media screen and (max-width: $breakpointMdScreen) {
+  @media screen and (min-width: tokens.$breakpointMd) {
     @content;
   }
 }
 
 @mixin lg {
-  @media screen and (max-width: $breakpointLgScreen) {
+  @media screen and (min-width: tokens.$breakpointLg) {
     @content;
   }
 }
 
 @mixin xl {
-  @media screen and (max-width: $breakpointXlScreen) {
+  @media screen and (min-width: tokens.$breakpointXl) {
     @content;
   }
 }
