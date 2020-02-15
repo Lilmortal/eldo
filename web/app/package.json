@@ -4,6 +4,7 @@
   "description": "Main Eldo application",
   "main": "./webpack.dev.js",
   "repository": "https://github.com/Lilmortal/eldo.git",
+  "license": "MIT",
   "author": "Jack Tan <jacktan165@gmail.com>",
   "keywords": [
     "eldo"

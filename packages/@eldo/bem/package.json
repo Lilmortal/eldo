@@ -13,7 +13,7 @@
     "test": "jest --watch",
     "test:ci": "jest",
     "lint:ts": "eslint **/*.ts{,x} --fix --no-error-on-unmatched-pattern",
-    "lint": "yarn lint",
+    "lint": "yarn lint:ts",
     "build": "webpack --config ./webpack.config.js"
   },
   "devDependencies": {

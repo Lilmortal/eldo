@@ -11,7 +11,7 @@
   "style": "index.scss",
   "scripts": {
     "lint:css": "stylelint **/*.css --fix --allow-empty-input",
-    "lint": "yarn lint'",
+    "lint": "yarn lint:css",
     "build": "webpack --config ./webpack.config.js"
   },
   "devDependencies": {

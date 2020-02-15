@@ -1,17 +1,17 @@
-const createBem = (name: string) => (t = '', selector = '') => {
+const createBem = (block: string) => (element = '', modifier = '') => {
   let bem = '';
 
-  if (t) {
-    bem = `${bem} ${name}__${t}`;
+  if (element) {
+    bem = `${block}__${element}`;
   } else {
-    bem = name;
+    bem = block;
   }
 
-  if (selector) {
-    if (t) {
-      bem = `${bem} ${name}__${t}--${selector}`;
+  if (modifier) {
+    if (element) {
+      bem = `${bem} ${block}__${element}--${modifier}`;
     } else {
-      bem = `${bem} ${name}--${selector}`;
+      bem = `${bem} ${block}--${modifier}`;
     }
   }
 
