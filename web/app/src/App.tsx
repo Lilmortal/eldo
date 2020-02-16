@@ -6,7 +6,14 @@ import './index.scss';
 
 const App: React.FC<{}> = () => (
   <div>
-    <Button value="test">Test</Button>
+    <Button
+      value="test"
+      onClick={() => {
+        console.log('test');
+      }}
+    >
+      Test
+    </Button>
     <div className="text">Test test test</div>
     <h1>test</h1>
   </div>

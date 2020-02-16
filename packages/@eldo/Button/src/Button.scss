@@ -1,4 +1,4 @@
-@use '@eldo/styles/_index' as *;
+@use '@eldo/styles' as *;
 
 .eldo-Button {
   @include padding(xs, md);
