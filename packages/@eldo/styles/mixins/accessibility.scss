@@ -1,0 +1,5 @@
+@mixin enableMotion {
+  @media screen and (prefers-reduced-motion: no-preference), (update: fast) {
+    @content;
+  }
+}

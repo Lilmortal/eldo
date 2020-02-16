@@ -15,19 +15,18 @@
   },
   "peerDependencies": {
     "@eldo/eslint-config-lint-tool": ">=2.3.0 <3",
-    "@eldo/styles": ">=1.6.0 <2",
-    "@storybook/addon-actions": ">=5.3.10 <6",
-    "@storybook/addon-knobs": ">=5.3.10 <6",
-    "@storybook/addon-links": ">=5.3.10 <6",
-    "@storybook/addons": ">=5.3.10 <6"
+    "@eldo/styles": ">=1.6.0 <2"
   },
   "devDependencies": {
     "@eldo/eslint-config-lint-tool": "^2.5.0",
     "@eldo/styles": "^1.6.0",
+    "@eldo/ui-tokens": "^1.1.0",
     "@storybook/addon-actions": "^5.3.10",
     "@storybook/addon-knobs": "^5.3.10",
     "@storybook/addon-links": "^5.3.10",
+    "@storybook/addon-viewport": "^5.3.13",
     "@storybook/addons": "^5.3.10",
+    "@storybook/react": "^5.3.13",
     "@types/storybook__addon-actions": "^5.2.1",
     "@types/storybook__addon-knobs": "^5.2.1",
     "@types/storybook__addon-links": "^5.2.1",

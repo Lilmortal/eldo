@@ -37,7 +37,11 @@ module.exports = ({ dir }) => {
             },
             {
               loader: "sass-loader",
-              options: { implementation: require("sass"), sourceMap: true },
+              options: {
+                // webpackImporter: false,
+                implementation: require("dart-sass"),
+                sourceMap: true,
+              },
             },
           ],
         },

@@ -3,3 +3,13 @@ $breakpointSm: 960px;
 $breakpointMd: 1024px;
 $breakpointLg: 1366px;
 $breakpointXl: 1920px;
+
+/* stylelint-disable property-no-unknown, selector-pseudo-class-no-unknown */
+:export {
+  breakpointXs: $breakpointXs;
+  breakpointSm: $breakpointSm;
+  breakpointMd: $breakpointMd;
+  breakpointLg: $breakpointLg;
+  breakpointXl: $breakpointXl;
+}
+/* stylelint-enable */

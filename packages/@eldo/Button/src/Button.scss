@@ -1,25 +1,33 @@
-@use '@eldo/styles';
+@use '@eldo/styles/_index' as *;
 
 .eldo-Button {
-  color: var(--text-primary);
-  border: 2px groove var(--button-border-primary);
-  background-color: inherit;
-  font-size: styles.$text-sm;
-  /* @mixin padding(1, 2, 3, 4); */
-  // padding: var(--space-xs) var(--space-md);
-  border-radius: 5px;
-  /* transition: 20ms background-color; */
-  // margin-bottom: var(--space-md);
-  cursor: pointer;
-
-  @include styles.margin(0, 0, md, 0);
-  &:focus,
-  &:hover {
-    border-style: double;
-    background-color: var(--button-active-primary);
+  @include padding(xs, md);
+  @include margin(0, 0, md, 0);
+  @include enableMotion {
+    transition: 200ms background-color;
   }
 
-  &:active {
-    background-color: white;
+  color: var(--text-primary);
+  border: 2px groove var(--border-primary);
+  background-color: inherit;
+  font-size: $text-sm;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:disabled {
+    color: var(--text-disabled-primary);
+    background-color: var(--disabled-primary);
+    border-color: var(--border-disabled-primary);
+    cursor: default;
+  }
+
+  &:focus,
+  &:hover:not([disabled]) {
+    border-style: double;
+    background-color: var(--hover-primary);
+  }
+
+  &:active:not([disabled]) {
+    background-color: var(--active-primary);
   }
 }

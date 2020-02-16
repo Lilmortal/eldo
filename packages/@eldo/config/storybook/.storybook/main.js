@@ -7,9 +7,10 @@ const APP_DIR = `${gitRoot()}/web`;
 module.exports = {
   stories: [`${PACKAGE_DIR}/**/*.stories.tsx`, `${APP_DIR}/**/*.stories.tsx`],
   addons: [
-    "@storybook/addon-actions",
-    "@storybook/addon-links",
-    "@storybook/addon-knobs",
+    "@storybook/addon-actions/register",
+    "@storybook/addon-viewport/register",
+    "@storybook/addon-links/register",
+    "@storybook/addon-knobs/register",
   ],
   webpackFinal: async (config, { configType }) => {
     config.module.rules.push({

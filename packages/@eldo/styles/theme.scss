@@ -1,17 +1,23 @@
-@use '@eldo/ui-tokens' as tokens;
+@use '@eldo/ui-tokens/_index' as tokens;
 @use 'mixins/responsive';
 
 :root,
 [data-theme='default'] {
   --body-primary: #{tokens.$darkBlue};
-  --button-border-primary: #{tokens.$lightGreen};
-  --button-active-primary: #{tokens.$darkGreen};
-  --content-border-primary: #{tokens.$lightGreen};
+
+  --hover-primary: #{tokens.$darkGreen};
+  --active-primary: #{tokens.$normalGreen};
+  --border-primary: #{tokens.$lightGreen};
+  --border-disabled-primary: #{tokens.$darkGray};
+  --disabled-primary: #{tokens.$normalGray};
+
   --content-primary: #{tokens.$darkGreen};
   --content-secondary: #{tokens.$normalGreen};
+
   --text-primary: #{tokens.$lightGreen};
   --text-secondary: #{tokens.$lightGray};
   --text-strong-primary: #{tokens.$lightWhite};
+  --text-disabled-primary: #{tokens.$lightGray};
 }
 
 [data-theme='dark'] {
