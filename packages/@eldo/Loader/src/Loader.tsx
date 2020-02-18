@@ -11,11 +11,17 @@ interface LoaderProps {
   children: React.ReactNode;
 }
 
-const Loader: React.FC<LoaderProps> = ({
-  className,
-  children,
-}: LoaderProps) => (
-  <div className={combinedClassNames(bem(), className)}>{children}</div>
+const getBars = (num: number) => {
+  const bars = [];
+  for (let i = 0; i < num; i += 1) {
+    bars.push(<span className={bem(`bar${i}`)} key={i} />);
+  }
+
+  return bars;
+};
+
+const Loader: React.FC<LoaderProps> = ({ className }: LoaderProps) => (
+  <div className={combinedClassNames(bem(), className)}>{getBars(20)}</div>
 );
 
 export default Loader;

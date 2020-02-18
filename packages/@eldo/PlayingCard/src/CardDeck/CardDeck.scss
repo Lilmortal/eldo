@@ -1,0 +1,11 @@
+@use '@eldo/styles' as *;
+@use '../common';
+
+.eldo-CardDeck {
+  width: common.$cardWidth;
+  height: common.$cardHeight;
+  background-color: var(--content-secondary);
+  border: 2px groove var(--border-primary);
+
+  box-shadow: 2px 4px 0px var(--border-primary), 4px 8px 0 var(--border-primary);
+}

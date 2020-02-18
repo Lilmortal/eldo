@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { createBem, combinedClassNames } from '../../bem';
+import { createBem, combinedClassNames } from '../../../bem';
 import FlippedCard from './FlippedCard';
 import UnFlippedCard from './UnFlippedCard';
 
@@ -25,13 +25,12 @@ const PlayingCard: React.FC<PlayingCardProps> = ({
   isSelected = false,
   value,
 }: PlayingCardProps) => (
-  <div
-    className={combinedClassNames(
-      bem('', isSelected ? 'isSelected' : ''),
-      className
+  <div className={combinedClassNames(bem(), className)}>
+    {isFlipped ? (
+      <FlippedCard isSelected={isSelected}>{value}</FlippedCard>
+    ) : (
+      <UnFlippedCard />
     )}
-  >
-    {isFlipped ? <FlippedCard>{value}</FlippedCard> : <UnFlippedCard />}
   </div>
 );
 

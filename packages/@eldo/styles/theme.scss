@@ -8,8 +8,11 @@
   --hover-primary: #{tokens.$darkGreen};
   --active-primary: #{tokens.$normalGreen};
   --border-primary: #{tokens.$lightGreen};
+
   --border-disabled-primary: #{tokens.$darkGray};
   --disabled-primary: #{tokens.$normalGray};
+
+  --box-shadow-primary: #{tokens.$lightGreen};
 
   --content-primary: #{tokens.$darkGreen};
   --content-secondary: #{tokens.$normalGreen};

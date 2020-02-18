@@ -1,9 +1,23 @@
-@use '@eldo/styles' as styles;
+@use '@eldo/styles' as *;
 
 .eldo-Theme {
   display: flex;
+  justify-content: flex-end;
+
+  &__opener {
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $text-xl;
+
+    &:after {
+      content: '\21A9';
+      @include margin(0, xs, 0, 0);
+    }
+  }
 
   &__selector {
-    flex-direction: flex-end;
+    // flex: 1 1 200px;
   }
 }

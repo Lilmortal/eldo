@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { createBem, combinedClassNames } from '../../bem';
 
@@ -7,23 +7,25 @@ import './Theme.scss';
 
 const bem = createBem('eldo-Theme');
 
+export type Selection = 'default' | 'dark';
+
 interface ThemeProps {
   className?: string;
-  children: React.ReactNode;
 }
 
 // TODO: Add state to change data-theme
-const Theme: React.FC<ThemeProps> = ({ className, children }: ThemeProps) => {
-  const onSelected = (selection: string) => {
-    console.log(selection);
+const Theme: React.FC<ThemeProps> = ({ className }: ThemeProps) => {
+  const [selected, setSelected] = useState<Selection>('default');
+  const onSelected = (selection: Selection) => {
+    setSelected(selection);
   };
 
   return (
     <div className={combinedClassNames(bem(), className)}>
+      <div className={bem('opener')} />
       <div className={bem('selector')}>
-        <ThemeSelector onSelected={onSelected} />
+        <ThemeSelector selected={selected} onSelected={onSelected} />
       </div>
-      {children}
     </div>
   );
 };

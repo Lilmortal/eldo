@@ -4,9 +4,11 @@ $spaces: (
   0: 0,
   auto: auto,
   xs: tokens.$space-xs,
+  sm: tokens.$space-sm,
   md: tokens.$space-md,
   lg: tokens.$space-lg,
   xl: tokens.$space-xl,
+  xxl: tokens.$space-xxl,
 );
 
 @function getVar($var) {

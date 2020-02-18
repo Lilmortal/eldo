@@ -1,6 +1,6 @@
 import { addParameters } from "@storybook/react";
 
-import breakpoints from "@eldo/ui-tokens/_index.scss";
+import breakpoints from "@eldo/styles/_index.scss";
 import "./container.scss";
 
 const getHeight = width => `${(parseInt(width) * 4) / 3}px`;

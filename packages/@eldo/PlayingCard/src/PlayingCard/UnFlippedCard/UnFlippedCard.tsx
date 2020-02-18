@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { createBem, combinedClassNames } from '../../../bem';
+import { createBem, combinedClassNames } from '../../../../bem';
 
 import './UnFlippedCard.scss';
 

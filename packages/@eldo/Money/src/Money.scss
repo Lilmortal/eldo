@@ -1,4 +1,4 @@
-@use '@eldo/styles' as styles;
+@use '@eldo/styles' as *;
 
 .eldo-Money {
   color: var(--text-primary);

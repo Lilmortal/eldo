@@ -3,4 +3,6 @@ import { storiesOf } from '@eldo/storybook';
 
 import CardDeck from './CardDeck';
 
-storiesOf('CardDeck', module).add('default CardDeck', () => <CardDeck />);
+storiesOf('PlayingCard/CardDeck', module).add('default CardDeck', () => (
+  <CardDeck />
+));

@@ -1,5 +1,33 @@
-@use '@eldo/styles' as styles;
+@use '@eldo/styles' as *;
 
 .eldo-Loader {
-  background-color: red;
+  display: flex;
+  // background-color: var(--content-secondary);
+  // border: 2px groove var(--border-primary);
+  // border-radius: 5px;
+
+  // @include padding(sm, md);
+  @include margin(xl, md);
+
+  @for $i from 1 to 21 {
+    &__bar#{$i} {
+      flex: 1 1 auto;
+      animation: loadBars 10s linear #{$i}s infinite alternate;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+@keyframes loadBars {
+  0% {
+    height: 0px;
+    border: 0;
+  }
+
+  30%,
+  100% {
+    height: $space-xl;
+    border: 1px groove var(--border-primary);
+    background-color: var(--content-primary);
+  }
 }

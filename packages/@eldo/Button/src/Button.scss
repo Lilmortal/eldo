@@ -15,9 +15,7 @@
   cursor: pointer;
 
   &:disabled {
-    color: var(--text-disabled-primary);
-    background-color: var(--disabled-primary);
-    border-color: var(--border-disabled-primary);
+    opacity: 0.3;
     cursor: default;
   }
 

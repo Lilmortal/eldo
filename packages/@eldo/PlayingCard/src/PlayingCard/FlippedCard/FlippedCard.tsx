@@ -1,22 +1,24 @@
 import React from 'react';
 
-import { createBem, combinedClassNames } from '../../../bem';
+import { createBem, combinedClassNames } from '../../../../bem';
 
 import './FlippedCard.scss';
 
 const bem = createBem('eldo-FlippedCard');
 
-interface FlippedCardProps {
+export interface FlippedCardProps {
   className?: string;
+  isSelected: boolean;
   children: React.ReactNode;
 }
 
 const FlippedCard: React.FC<FlippedCardProps> = ({
   className,
+  isSelected,
   children,
 }: FlippedCardProps) => (
   <div className={combinedClassNames(bem(), className)}>
-    <div className={bem('card')}>{children}</div>
+    <div className={bem('card', isSelected ? 'selected' : '')}>{children}</div>
   </div>
 );
 

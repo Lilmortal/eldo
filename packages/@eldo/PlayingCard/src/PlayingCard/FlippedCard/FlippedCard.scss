@@ -1,0 +1,22 @@
+@use '@eldo/styles' as *;
+@use '../../common';
+
+.eldo-FlippedCard {
+  border: 2px solid var(--border-primary);
+  background-color: var(--content-primary);
+  width: common.$cardWidth;
+  height: common.$cardHeight;
+
+  &__card {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: $text-xxxl;
+    color: var(--text-strong-primary);
+
+    &--selected {
+      box-shadow: 6px 10px 5px var(--box-shadow-primary);
+    }
+  }
+}

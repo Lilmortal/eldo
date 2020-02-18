@@ -1,1 +1,1 @@
-export { default } from './src/PlayingCard';
+export { default } from './src/PlayingCard/PlayingCard';
