@@ -10,7 +10,7 @@
   "license": "MIT",
   "main": "_index.scss",
   "scripts": {
-    "lint:css": "stylelint **/*.scss --fix --allow-empty-input",
+    "lint:css": "stylelint **/*.scss *.scss --fix --allow-empty-input",
     "lint": "yarn lint:css",
     "build": "webpack --config ./webpack.config.js"
   },
