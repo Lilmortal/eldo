@@ -7,7 +7,7 @@ import './Button.scss';
 export interface ButtonProps {
   children: React.ReactNode;
   value: string;
-  onClick(): void;
+  onClick(e: React.MouseEvent<HTMLButtonElement>): void;
   disabled?: boolean;
   className?: string;
   style?: React.CSSProperties;

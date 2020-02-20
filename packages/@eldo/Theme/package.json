@@ -19,9 +19,11 @@
   },
   "peerDependencies": {
     "react": ">=16.12.0 <17",
-    "react-dom": ">=16.12.0 <17"
+    "react-dom": ">=16.12.0 <17",
+    "@eldo/button": ">=2.7.0 <3"
   },
   "devDependencies": {
+    "@eldo/button": "^2.7.0",
     "@eldo/eslint-config-lint-tool": "^2.5.0",
     "@eldo/jest-config": "^2.1.1",
     "@eldo/storybook": "^2.4.1",

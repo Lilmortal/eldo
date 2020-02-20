@@ -1,27 +1,26 @@
 import React from 'react';
 
 import { createBem, combinedClassNames } from '../../../bem';
-import { Selection } from '../Theme';
+import { Selection, selectionList } from '../Theme';
 
 import './ThemeSelector.scss';
 
 const bem = createBem('eldo-ThemeSelector');
 
-// TODO: Can you read postCSS variables in JS?
-const options = ['default', 'dark'];
-
 export interface ThemeSelectorProps {
   selected: Selection;
+  expanded?: boolean;
   onSelected(selection: Selection): void;
   className?: string;
 }
 
 const isSelection = (selection: string): selection is Selection => {
-  return ['default', 'dark'].includes(selection);
+  return selectionList.includes(selection as Selection);
 };
 
 const ThemeSelector: React.FC<ThemeSelectorProps> = ({
   selected,
+  expanded = false,
   onSelected,
   className,
 }: ThemeSelectorProps) => {
@@ -33,28 +32,39 @@ const ThemeSelector: React.FC<ThemeSelectorProps> = ({
     }
   };
 
+  // console.log(expanded);
   // TODO: aria-hidden them as keyboard users don't need this.
   return (
-    <div className={combinedClassNames(bem(), className)}>
-      {options.map(option => (
-        <React.Fragment key={option}>
-          <label
-            htmlFor={option}
-            className={bem('selection', [
-              option,
-              selected === option ? 'selected' : '',
-            ])}
-          >
-            <input
-              type="radio"
-              name="theme"
-              id={option}
-              value={option}
-              onChange={onThemeSelected}
-            />
-          </label>
-        </React.Fragment>
-      ))}
+    <div
+      className={combinedClassNames(
+        bem('', expanded ? 'expanded' : ''),
+        className
+      )}
+    >
+      <div className={bem('themeListContainer')}>
+        <div className={bem('themeList')}>
+          {selectionList.map(option => (
+            <React.Fragment key={option}>
+              <label
+                htmlFor={option}
+                className={bem('selection', [
+                  option,
+                  selected === option ? 'selected' : '',
+                ])}
+              >
+                <input
+                  type="radio"
+                  name="theme"
+                  id={option}
+                  value={option}
+                  onChange={onThemeSelected}
+                />
+              </label>
+            </React.Fragment>
+          ))}
+        </div>
+      </div>
+      <div className={bem('selection', [selected])} />
     </div>
   );
 };

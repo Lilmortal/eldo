@@ -8,6 +8,10 @@
 
   @include padding(xs, md);
 
+  &--expanded {
+    background-color: yellow;
+  }
+
   &__selection {
     flex: 1;
     width: 20px;
@@ -17,7 +21,7 @@
     & input[type='radio'] {
       opacity: 0;
       width: 0;
-      position: absolute;
+      position: relative;
     }
 
     &--default {
@@ -28,9 +32,23 @@
       background-color: blue;
     }
 
+    &--green {
+      background-color: green;
+    }
+
     &--selected {
       display: initial;
-      z-index: $zIndexXs;
+      // z-index: $zIndexXs;
+      border: 2px groove white;
     }
+  }
+
+  &__themeListContainer {
+    width: 100%;
+  }
+
+  &__themeList {
+    overflow: hidden;
+    flex: 1;
   }
 }
