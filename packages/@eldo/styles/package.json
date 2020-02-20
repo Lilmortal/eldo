@@ -8,7 +8,7 @@
   "engines": {
     "node": ">=8"
   },
-  "style": "_index.scss",
+  "main": "_index.scss",
   "files": [
     "_index.scss",
     "theme.scss"
