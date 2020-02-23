@@ -18,6 +18,10 @@ The disadvantage however is that the project can get very huge, very easily. I h
 
 To me, the disadvantage far outweights the advantage. In the future, I will refactor this project to contain a shared common component repository with shared CSS styles and utils included, an ui-token library, and a shared config repository.
 
+## Prerequisites
+* Node 10+
+* Yarn 1.0+
+
 ## Installation
 
 Clone this project and just run `yarn`. The benefit of the yarn workspaces is that it hoisted all shared node_modules packages up to the root. The reason why I still used lerna is because it provides the benefit of me being able to run a common script to all packages. e.g. `lerna run test` will trigger all test scripts. If it does not have `test` in its script, it will safely ignore it unlike yarn workspaces which cause an error. Lerna also allows each packages to have its own version. e.g. `Button` when committed will automatically update its own version and CHANGELOG via the commit message. It will also implicitly upgrade `Button` dependencies on all packages and upgrade it's own minor version.
