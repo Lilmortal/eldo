@@ -31,6 +31,7 @@
   "dependencies": {
     "@eldo/bem": "^1.1.0",
     "@eldo/button": "^2.7.0",
+    "@eldo/buttongroup": "^1.1.0",
     "@eldo/styles": "^1.6.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
