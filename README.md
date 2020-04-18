@@ -1,5 +1,7 @@
 # Eldo (WIP)
 
+## NOTE THAT THIS PROJECT IS FOR ME TO EXPERIMENT LERNA AND YARN WORKSPACES, IT IS NOT INTENDED FOR PRODUCTION USES.
+
 ## What is this project about
 
 It is designed to be a simple 2 players game that is sort of like the Poker, but with the twist of math in it. The idea is each player
